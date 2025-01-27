@@ -1,0 +1,22 @@
+1. Average Time Taken for Translations:
+
+    Average Spanish Time: 2.195 seconds
+    Average English Time: 2.085 seconds
+
+2. Average BLEU Score:
+
+    Overall average BLEU score is 0.5488
+
+3. POS Analysis Score:
+
+    Average POS Difference Score: 3.4
+
+Explanation of the Scores:
+
+    Time Taken: The average time for both Spanish and English translations is quite close (around 2.25 seconds). This indicates that the translation process is fairly consistent, with no significant delays between the languages.
+
+    BLEU Score: The average BLEU score is 0.6674, which suggests a decent level of similarity between the translated text and the reference (with 1 being perfect similarity). A higher BLEU score implies better quality and closeness to the reference translation.
+
+    POS Analysis Score: The average score of 3.4 represents the total difference in part-of-speech tags across translations. A lower score would indicate closer alignment to the original text in terms of structure, while a higher score indicates more structural differences. A score of 3.4 indicates moderate variation, which suggests that while the translations are mostly accurate, there is some deviation in terms of syntactic structure.
+
+

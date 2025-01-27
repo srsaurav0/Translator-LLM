@@ -1,0 +1,4 @@
+Average Time to Translate to Spanish: 1.829 seconds
+Average Time to Translate to English: 1.904 seconds
+Average BLEU Score: 0.682
+Average POS Score (absolute differences): 1.355

@@ -1,0 +1,451 @@
+[
+    {
+        "input_text": "Despite the fact that it was raining heavily, the marathon runners continued their race with determination and enthusiasm.",
+        "translations": {
+            "to_german": "Obwohl es stark regnete, setzten die Marathonläufer ihr Rennen mit Entschlossenheit und Enthusiasmus fort.",
+            "to_english": "Although it rained heavily, the marathon runners continued their race with determination and enthusiasm."
+        },
+        "time_taken": {
+            "to_german": 1.3854701519012451,
+            "to_english": 2.141864538192749
+        },
+        "bleu_score": 0.5819463761583523,
+        "pos_analysis": {
+            "source_pos": {
+                "SCONJ": 2,
+                "DET": 2,
+                "NOUN": 6,
+                "PRON": 2,
+                "AUX": 1,
+                "VERB": 2,
+                "ADV": 1,
+                "PUNCT": 2,
+                "ADP": 1,
+                "CCONJ": 1
+            },
+            "target_pos": {
+                "SCONJ": 1,
+                "PRON": 1,
+                "ADV": 2,
+                "VERB": 2,
+                "PUNCT": 2,
+                "DET": 2,
+                "NOUN": 4,
+                "ADP": 1,
+                "CCONJ": 1
+            },
+            "differences": {
+                "SCONJ": 1,
+                "NOUN": 2,
+                "PRON": 1,
+                "AUX": 1,
+                "ADV": -1
+            }
+        }
+    },
+    {
+        "input_text": "She postponed the meeting until her manager, who had been away on a business trip, returned to the office with the final approval.",
+        "translations": {
+            "to_german": "Sie vertagte die Sitzung, bis ihr Manager, der auf einer Geschäftsreise weg war, mit der endgültigen Genehmigung ins Büro zurückkehrte.",
+            "to_english": "She postponed the meeting until her manager, who was away on a business trip, returned to the office with the final approval."
+        },
+        "time_taken": {
+            "to_german": 1.4517180919647217,
+            "to_english": 1.8423652648925781
+        },
+        "bleu_score": 0.8337411129887954,
+        "pos_analysis": {
+            "source_pos": {
+                "PRON": 3,
+                "VERB": 2,
+                "DET": 4,
+                "NOUN": 6,
+                "SCONJ": 1,
+                "PUNCT": 3,
+                "AUX": 2,
+                "ADV": 1,
+                "ADP": 3,
+                "ADJ": 1
+            },
+            "target_pos": {
+                "PRON": 2,
+                "VERB": 2,
+                "DET": 4,
+                "NOUN": 5,
+                "PUNCT": 4,
+                "SCONJ": 1,
+                "ADP": 3,
+                "ADV": 1,
+                "AUX": 1,
+                "ADJ": 1
+            },
+            "differences": {
+                "PRON": 1,
+                "NOUN": 1,
+                "PUNCT": -1,
+                "AUX": 1
+            }
+        }
+    },
+    {
+        "input_text": "While I enjoy spending time with friends at the beach, I often find myself yearning for the solitude of the mountains.",
+        "translations": {
+            "to_german": "Während ich gerne Zeit mit Freunden am Strand verbringe, sehne ich mich oft nach der Einsamkeit der Berge.",
+            "to_english": "While I enjoy spending time with friends on the beach, I often long for the solitude of the mountains."
+        },
+        "time_taken": {
+            "to_german": 2.129718065261841,
+            "to_english": 1.8490300178527832
+        },
+        "bleu_score": 0.6200132149733733,
+        "pos_analysis": {
+            "source_pos": {
+                "SCONJ": 1,
+                "PRON": 3,
+                "VERB": 4,
+                "NOUN": 5,
+                "ADP": 4,
+                "DET": 3,
+                "PUNCT": 2,
+                "ADV": 1
+            },
+            "target_pos": {
+                "SCONJ": 1,
+                "PRON": 3,
+                "ADV": 2,
+                "NOUN": 5,
+                "ADP": 3,
+                "VERB": 2,
+                "PUNCT": 2,
+                "DET": 2
+            },
+            "differences": {
+                "VERB": 2,
+                "ADP": 1,
+                "DET": 1,
+                "ADV": -1
+            }
+        }
+    },
+    {
+        "input_text": "The scientist explained the experiment in detail so that everyone, including those without a background in physics, could understand the significance of the findings.",
+        "translations": {
+            "to_german": "Der Wissenschaftler erklärte das Experiment ausführlich, so dass jeder, auch diejenigen ohne Hintergrund in der Physik, die Bedeutung der Ergebnisse verstehen konnte.",
+            "to_english": "The scientist explained the experiment in detail, so that everyone, even those without a background in physics, could understand the significance of the results."
+        },
+        "time_taken": {
+            "to_german": 2.43430757522583,
+            "to_english": 1.8171837329864502
+        },
+        "bleu_score": 0.7186969683828063,
+        "pos_analysis": {
+            "source_pos": {
+                "DET": 5,
+                "NOUN": 7,
+                "VERB": 3,
+                "ADP": 4,
+                "SCONJ": 2,
+                "PRON": 2,
+                "PUNCT": 3,
+                "AUX": 1
+            },
+            "target_pos": {
+                "DET": 5,
+                "NOUN": 6,
+                "VERB": 2,
+                "ADV": 3,
+                "PUNCT": 4,
+                "SCONJ": 1,
+                "PRON": 2,
+                "ADP": 2,
+                "AUX": 1
+            },
+            "differences": {
+                "NOUN": 1,
+                "VERB": 1,
+                "ADP": 2,
+                "SCONJ": 1,
+                "PUNCT": -1
+            }
+        }
+    },
+    {
+        "input_text": "If you work hard and stay focused on your goals, you will achieve more than you ever thought possible in life.",
+        "translations": {
+            "to_german": "Wenn Sie hart arbeiten und auf Ihre Ziele konzentriert bleiben, werden Sie mehr erreichen, als Sie jemals für möglich gehalten im Leben.",
+            "to_english": "If you work hard and stay focused on your goals, you will achieve more than you ever thought possible in life."
+        },
+        "time_taken": {
+            "to_german": 1.655714750289917,
+            "to_english": 1.8325951099395752
+        },
+        "bleu_score": 1.0,
+        "pos_analysis": {
+            "source_pos": {
+                "SCONJ": 2,
+                "PRON": 4,
+                "VERB": 4,
+                "ADV": 2,
+                "CCONJ": 1,
+                "ADJ": 3,
+                "ADP": 2,
+                "NOUN": 2,
+                "PUNCT": 2,
+                "AUX": 1
+            },
+            "target_pos": {
+                "SCONJ": 2,
+                "PRON": 3,
+                "ADV": 4,
+                "VERB": 5,
+                "CCONJ": 1,
+                "ADP": 3,
+                "DET": 1,
+                "NOUN": 2,
+                "PUNCT": 3,
+                "AUX": 1
+            },
+            "differences": {
+                "PRON": 1,
+                "VERB": -1,
+                "ADV": -2,
+                "ADJ": 3,
+                "ADP": -1,
+                "PUNCT": -1
+            }
+        }
+    },
+    {
+        "input_text": "Although the restaurant was highly recommended by locals, the service was slow, and the food did not live up to our expectations.",
+        "translations": {
+            "to_german": "Obwohl das Restaurant sehr von Einheimischen empfohlen wurde, war der Service langsam, und das Essen nicht unseren Erwartungen gerecht zu werden.",
+            "to_english": "Although the restaurant was highly recommended by locals, the service was slow, and the food did not meet our expectations."
+        },
+        "time_taken": {
+            "to_german": 1.8232810497283936,
+            "to_english": 1.8606019020080566
+        },
+        "bleu_score": 0.7907692088264492,
+        "pos_analysis": {
+            "source_pos": {
+                "SCONJ": 1,
+                "DET": 3,
+                "NOUN": 5,
+                "AUX": 3,
+                "ADV": 1,
+                "VERB": 2,
+                "ADP": 3,
+                "PUNCT": 3,
+                "ADJ": 1,
+                "CCONJ": 1,
+                "PART": 1,
+                "PRON": 1
+            },
+            "target_pos": {
+                "SCONJ": 1,
+                "DET": 4,
+                "NOUN": 5,
+                "ADV": 3,
+                "ADP": 1,
+                "VERB": 1,
+                "AUX": 3,
+                "PUNCT": 3,
+                "CCONJ": 1,
+                "PART": 2
+            },
+            "differences": {
+                "DET": -1,
+                "ADV": -2,
+                "VERB": 1,
+                "ADP": 2,
+                "ADJ": 1,
+                "PART": -1,
+                "PRON": 1
+            }
+        }
+    },
+    {
+        "input_text": "Because she studied diligently every night for the past month, Maria performed exceptionally well on her final exams.",
+        "translations": {
+            "to_german": "Weil sie im vergangenen Monat jeden Abend fleißig studierte, war Maria bei ihren Abschlussprüfungen außergewöhnlich gut.",
+            "to_english": "Because she studied hard every night last month, Mary was exceptionally good at her final exams."
+        },
+        "time_taken": {
+            "to_german": 1.705247402191162,
+            "to_english": 1.5902624130249023
+        },
+        "bleu_score": 0.10855317549234082,
+        "pos_analysis": {
+            "source_pos": {
+                "SCONJ": 1,
+                "PRON": 2,
+                "VERB": 2,
+                "ADV": 3,
+                "DET": 2,
+                "NOUN": 3,
+                "ADP": 2,
+                "ADJ": 2,
+                "PUNCT": 2,
+                "PROPN": 1
+            },
+            "target_pos": {
+                "SCONJ": 1,
+                "PRON": 1,
+                "ADP": 2,
+                "ADJ": 1,
+                "NOUN": 3,
+                "DET": 2,
+                "ADV": 3,
+                "VERB": 1,
+                "PUNCT": 2,
+                "AUX": 1,
+                "PROPN": 1
+            },
+            "differences": {
+                "PRON": 1,
+                "VERB": 1,
+                "ADJ": 1
+            }
+        }
+    },
+    {
+        "input_text": "The company implemented new policies to improve employee satisfaction, which, in turn, led to increased productivity across all departments.",
+        "translations": {
+            "to_german": "Das Unternehmen hat neue Richtlinien umgesetzt, um die Zufriedenheit der Mitarbeiter zu verbessern, was wiederum zu einer Produktivitätssteigerung in allen Abteilungen führte.",
+            "to_english": "The company has implemented new guidelines to improve employee satisfaction, which in turn led to an increase in productivity in all departments."
+        },
+        "time_taken": {
+            "to_german": 2.3949787616729736,
+            "to_english": 2.0883162021636963
+        },
+        "bleu_score": 0.1827921852511911,
+        "pos_analysis": {
+            "source_pos": {
+                "DET": 2,
+                "NOUN": 7,
+                "VERB": 4,
+                "ADJ": 1,
+                "PART": 1,
+                "PUNCT": 4,
+                "PRON": 1,
+                "ADP": 3
+            },
+            "target_pos": {
+                "DET": 5,
+                "NOUN": 6,
+                "AUX": 1,
+                "ADJ": 1,
+                "VERB": 3,
+                "PUNCT": 3,
+                "SCONJ": 1,
+                "PART": 1,
+                "PRON": 1,
+                "ADV": 1,
+                "ADP": 2
+            },
+            "differences": {
+                "DET": -3,
+                "NOUN": 1,
+                "VERB": 1,
+                "PUNCT": 1,
+                "ADP": 1
+            }
+        }
+    },
+    {
+        "input_text": "After the storm had passed and the sun reappeared, the children ventured outside to play in the puddles left behind.",
+        "translations": {
+            "to_german": "Nachdem der Sturm vorüber war und die Sonne wieder auftauchte, wagten sich die Kinder nach draußen, um in den Pfützen zu spielen, die zurückgelassen wurden.",
+            "to_english": "After the storm was over and the sun reappeared, the children ventured outside to play in the puddles left behind."
+        },
+        "time_taken": {
+            "to_german": 2.6794960498809814,
+            "to_english": 1.9804604053497314
+        },
+        "bleu_score": 0.803154665668484,
+        "pos_analysis": {
+            "source_pos": {
+                "SCONJ": 1,
+                "DET": 4,
+                "NOUN": 4,
+                "AUX": 1,
+                "VERB": 5,
+                "CCONJ": 1,
+                "PUNCT": 2,
+                "ADV": 2,
+                "PART": 1,
+                "ADP": 1
+            },
+            "target_pos": {
+                "SCONJ": 2,
+                "DET": 4,
+                "NOUN": 4,
+                "ADV": 3,
+                "AUX": 2,
+                "CCONJ": 1,
+                "VERB": 4,
+                "PUNCT": 4,
+                "PRON": 2,
+                "ADP": 2,
+                "PART": 1
+            },
+            "differences": {
+                "SCONJ": -1,
+                "AUX": -1,
+                "VERB": 1,
+                "PUNCT": -2,
+                "ADV": -1,
+                "ADP": -1
+            }
+        }
+    },
+    {
+        "input_text": "Whenever he travels abroad, John makes it a point to learn a few basic phrases in the local language to show respect for the culture.",
+        "translations": {
+            "to_german": "Immer, wenn er ins Ausland reist, macht es John einen Punkt, um ein paar grundlegende Sätze in der lokalen Sprache zu lernen, um Respekt für die Kultur zu zeigen.",
+            "to_english": "Whenever he travels abroad, John makes a point to learn a few basic phrases in the local language to show respect for the culture."
+        },
+        "time_taken": {
+            "to_german": 1.7826368808746338,
+            "to_english": 2.375168800354004
+        },
+        "bleu_score": 0.891237063632542,
+        "pos_analysis": {
+            "source_pos": {
+                "SCONJ": 1,
+                "PRON": 2,
+                "VERB": 4,
+                "ADV": 1,
+                "PUNCT": 2,
+                "PROPN": 1,
+                "DET": 4,
+                "NOUN": 5,
+                "PART": 2,
+                "ADJ": 3,
+                "ADP": 2
+            },
+            "target_pos": {
+                "ADV": 1,
+                "PUNCT": 5,
+                "SCONJ": 3,
+                "PRON": 2,
+                "ADP": 3,
+                "NOUN": 6,
+                "VERB": 4,
+                "PROPN": 1,
+                "DET": 5,
+                "ADJ": 2,
+                "PART": 2
+            },
+            "differences": {
+                "SCONJ": -2,
+                "PUNCT": -3,
+                "DET": -1,
+                "NOUN": -1,
+                "ADJ": 1,
+                "ADP": -1
+            }
+        }
+    }
+]
+
