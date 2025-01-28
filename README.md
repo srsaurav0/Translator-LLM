@@ -41,3 +41,45 @@ python3 -m spacy download de_core_news_sm
 | Gemini Flash 1.5       | 2.056                             | 2.090                     | 0.637          | 13.9                       | 1000 RPM |
 | Hugging Face Helsinki  | 1.859                             | 1.854                     | 0.663          | 7.033                     | 1000 RPD |
 | Mistral AI             | 1.228                             | 0.802                     | 0.700          | 7.667                     | 1 RPS    |
+
+
+## Mistral Bulk RBO (With HTML)
+
+### French Translation Metrics
+
+| Metric                              | Value      |
+|-------------------------------------|------------|
+| Average Time to Translate to French | 4.000 sec  |
+| Average Time to Translate to English| 2.592 sec  |
+| Average BLEU Score                  | 0.654      |
+| Average POS Score (absolute differences) | 53.64    |
+
+### German Translation Metrics
+
+| Metric                              | Value      |
+|-------------------------------------|------------|
+| Average Time to Translate to German | 4.247 sec  |
+| Average Time to Translate to English| 3.030 sec  |
+| Average BLEU Score                  | 0.614      |
+| Average POS Score (absolute differences) | 31.18    |
+
+### Spanish Translation Metrics
+
+| Metric                              | Value      |
+|-------------------------------------|------------|
+| Average Time to Translate to Spanish| 3.730 sec  |
+| Average Time to Translate to English| 2.680 sec  |
+| Average BLEU Score                  | 0.683      |
+| Average POS Score (absolute differences) | 39.73    |
+
+### Average Across All Languages
+
+| Metric                              | Value      |
+|-------------------------------------|------------|
+| Average Time to Translate to Target Language | 3.992 sec  |
+| Average Time to Translate to English| 2.767 sec  |
+| Average BLEU Score                  | 0.650      |
+| Average POS Score (absolute differences) | 41.52    |
+
+
+This text is using 𝐛𝐨𝐥𝐝 Unicode characters.
