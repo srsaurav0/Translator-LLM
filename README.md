@@ -6,7 +6,8 @@ python -m spacy download es_core_news_sm
 
 python3 -m spacy download de_core_news_sm
 
-Gemini Flash 1.5:
+## Gemini Flash 1.5:
+
 | Language | Avg Time to Translate to Language (sec) | Avg Time to Translate to English (sec) | Avg BLEU Score | Avg POS Score (abs diff) |
 |----------|-----------------------------------------|-----------------------------------------|----------------|---------------------------|
 | French   | 2.038                                   | 2.147                                   | 0.586          | 14.4                      |
@@ -14,7 +15,8 @@ Gemini Flash 1.5:
 | Spanish  | 2.251                                   | 2.225                                   | 0.668          | 7.5                       |
 
 
-Hugging Face Helsinki:
+## Hugging Face Helsinki:
+
 | Language | Avg Time to Translate to Language (sec) | Avg Time to Translate to English (sec) | Avg BLEU Score | Avg POS Score (abs diff) |
 |----------|-----------------------------------------|-----------------------------------------|----------------|---------------------------|
 | French   | 1.903                                   | 1.819                                   | 0.655          | 8.2                       |
@@ -22,7 +24,8 @@ Hugging Face Helsinki:
 | Spanish  | 1.729                                   | 1.804                                   | 0.682          | 6.8                       |
 
 
-Mistral AI:
+## Mistral AI:
+
 | Language | Avg Time to Translate to Language (sec) | Avg Time to Translate to English (sec) | Avg BLEU Score | Avg POS Score (abs diff) |
 |----------|-----------------------------------------|-----------------------------------------|----------------|---------------------------|
 | French   | 1.291                                   | 0.841                                   | 0.710          | 8.3                       |
@@ -30,6 +33,8 @@ Mistral AI:
 | Spanish  | 1.104                                   | 0.773                                   | 0.706          | 7.4                       |
 
 
+
+## Overall Metrics:
 
 | Model                  | Avg Time to Target Language (sec) | Avg Time to English (sec) | Avg BLEU Score | Avg POS Score (abs diff) | Quotas          |
 |------------------------|------------------------------------|----------------------------|----------------|---------------------------|--------------|
