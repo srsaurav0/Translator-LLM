@@ -4,3 +4,4 @@ deepl
 privateai_client
 transformers
 mistralai
+sentencepiece
