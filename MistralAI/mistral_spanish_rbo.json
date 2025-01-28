@@ -1,0 +1,665 @@
+[
+    {
+        "input_text": "<p> At Rent By Owner, we want everyone to be an owner, just as we want everyone to be a traveler. In creating more travelers, hopefully we are creating more owners. And in creating more owners, we will be creating more travelers. You can <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.upnextgroup.com/about-us\">read more about our core values</a> for UpNext Group here. We also look forward to showing you what we are creating in the months and years ahead. Stay tuned.</p>",
+        "translations": {
+            "to_spanish": "<p> En Rent By Owner, queremos que todos sean propietarios, así como queremos que todos sean viajeros. Al crear más viajeros, esperamos estar creando más propietarios. Y al crear más propietarios, estaremos creando más viajeros. Puedes <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.upnextgroup.com/about-us\">leer más sobre nuestros valores fundamentales</a> para UpNext Group aquí. También esperamos mostrarte lo que estamos creando en los meses y años venideros. Mantente atento.</p>",
+            "to_english": "<p> At Rent By Owner, we want everyone to be owners, just as we want everyone to be travelers. By creating more travelers, we hope to be creating more owners. And by creating more owners, we will be creating more travelers. You can <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.upnextgroup.com/about-us\">read more about our core values</a> for UpNext Group here. We also hope to show you what we are creating in the months and years to come. Stay tuned.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 3.7661027908325195,
+            "to_english": 2.7634129524230957
+        },
+        "bleu_score": 0.701327477846776,
+        "pos_analysis": {
+            "source_pos": {
+                "X": 6,
+                "ADP": 9,
+                "PROPN": 5,
+                "PUNCT": 15,
+                "PRON": 12,
+                "VERB": 11,
+                "PART": 2,
+                "AUX": 7,
+                "DET": 5,
+                "NOUN": 14,
+                "ADV": 6,
+                "SCONJ": 1,
+                "ADJ": 6,
+                "CCONJ": 2,
+                "SYM": 1,
+                "NUM": 1
+            },
+            "target_pos": {
+                "NOUN": 13,
+                "CCONJ": 3,
+                "PROPN": 9,
+                "ADP": 7,
+                "PUNCT": 12,
+                "VERB": 12,
+                "SCONJ": 3,
+                "PRON": 4,
+                "AUX": 6,
+                "ADV": 8,
+                "NUM": 3,
+                "DET": 2,
+                "ADJ": 3
+            },
+            "differences": {
+                "X": 6,
+                "ADP": 2,
+                "PROPN": -4,
+                "PUNCT": 3,
+                "PRON": 8,
+                "VERB": -1,
+                "PART": 2,
+                "AUX": 1,
+                "DET": 3,
+                "NOUN": 1,
+                "ADV": -2,
+                "SCONJ": -2,
+                "ADJ": 3,
+                "CCONJ": -1,
+                "SYM": 1,
+                "NUM": -2
+            }
+        }
+    },
+    {
+        "input_text": "<p> Historically, Rent By Owner has been a meta brand, connecting travelers to travel sellers, and since 2013, this has served us well. We believe that by helping more than a million travelers, we now have a great base on which to build something new and spectacular. Going forward, we need to build closer relationships with both sides of the market--both travelers and owners-- so as to bring them together in new ways and into a deeper relationship with each other and the communities into which the traveler journeys.</p>",
+        "translations": {
+            "to_spanish": "<p> Históricamente, Rent By Owner ha sido una meta marca, conectando viajeros con vendedores de viajes, y desde 2013, esto nos ha servido bien. Creemos que al ayudar a más de un millón de viajeros, ahora tenemos una gran base sobre la cual construir algo nuevo y espectacular. Avanzando, necesitamos construir relaciones más cercanas con ambos lados del mercado--tanto viajeros como propietarios-- para así unirlos de nuevas maneras y en una relación más profunda el uno con el otro y con las comunidades a las que el viajero se dirige.</p>",
+            "to_english": "<p>Historically, Rent By Owner has been an umbrella brand, connecting travelers with travel sellers, and since 2013, this has served us well. We believe that by helping more than a million travelers, we now have a great foundation on which to build something new and spectacular. Moving forward, we need to build closer relationships with both sides of the market--both travelers and owners--to thus unite them in new ways and in a deeper relationship with each other and with the communities to which the traveler is headed.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 3.3880245685577393,
+            "to_english": 2.6175639629364014
+        },
+        "bleu_score": 0.6668347214868415,
+        "pos_analysis": {
+            "source_pos": {
+                "X": 4,
+                "ADV": 5,
+                "PUNCT": 9,
+                "PROPN": 3,
+                "ADP": 10,
+                "AUX": 3,
+                "DET": 9,
+                "ADJ": 9,
+                "NOUN": 14,
+                "VERB": 11,
+                "PART": 4,
+                "CCONJ": 5,
+                "SCONJ": 4,
+                "NUM": 2,
+                "PRON": 10
+            },
+            "target_pos": {
+                "NOUN": 17,
+                "CCONJ": 5,
+                "PROPN": 7,
+                "PUNCT": 8,
+                "AUX": 3,
+                "DET": 9,
+                "ADJ": 9,
+                "VERB": 9,
+                "ADP": 16,
+                "PRON": 8,
+                "ADV": 6,
+                "SCONJ": 2,
+                "NUM": 2
+            },
+            "differences": {
+                "X": 4,
+                "ADV": -1,
+                "PUNCT": 1,
+                "PROPN": -4,
+                "ADP": -6,
+                "NOUN": -3,
+                "VERB": 2,
+                "PART": 4,
+                "SCONJ": 2,
+                "PRON": 2
+            }
+        }
+    },
+    {
+        "input_text": "<p> At Rent By Owner, we are focusing on the Alternative Accommodations market. We believe this market encourages people to have a more authentic travel experience in the communities, homes, and places of others. Creating a direct connection between a traveler and an owner creates a more meaningful experience. Sharing cultures, recipes, local tips, insights, pride, activities, art, food, entertainment... sights, sounds, smells and senses. These are the memories worth sharing.</p>",
+        "translations": {
+            "to_spanish": "<p> En Rent By Owner, nos enfocamos en el mercado de Alojamientos Alternativos. Creemos que este mercado fomenta que las personas tengan una experiencia de viaje más auténtica en las comunidades, hogares y lugares de otros. Crear una conexión directa entre un viajero y un propietario crea una experiencia más significativa. Compartir culturas, recetas, consejos locales, conocimientos, orgullo, actividades, arte, comida, entretenimiento... vistas, sonidos, olores y sentidos. Estos son los recuerdos que valen la pena compartir.</p>",
+            "to_english": "<p> At Rent By Owner, we focus on the Alternative Accommodations market. We believe that this market promotes a more authentic travel experience in the communities, homes, and places of others. Creating a direct connection between a traveler and an owner creates a more meaningful experience. Sharing cultures, recipes, local tips, knowledge, pride, activities, art, food, entertainment... sights, sounds, smells, and senses. These are the memories worth sharing.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 5.72247576713562,
+            "to_english": 2.1729509830474854
+        },
+        "bleu_score": 0.7752924427504572,
+        "pos_analysis": {
+            "source_pos": {
+                "X": 4,
+                "ADP": 6,
+                "PROPN": 5,
+                "PUNCT": 18,
+                "PRON": 3,
+                "AUX": 2,
+                "VERB": 8,
+                "DET": 9,
+                "NOUN": 26,
+                "PART": 1,
+                "ADV": 2,
+                "ADJ": 5,
+                "CCONJ": 3
+            },
+            "target_pos": {
+                "NOUN": 27,
+                "CCONJ": 4,
+                "PROPN": 7,
+                "ADP": 7,
+                "PUNCT": 17,
+                "PRON": 4,
+                "VERB": 8,
+                "DET": 11,
+                "SCONJ": 2,
+                "ADV": 2,
+                "ADJ": 5,
+                "AUX": 1,
+                "NUM": 1
+            },
+            "differences": {
+                "X": 4,
+                "ADP": -1,
+                "PROPN": -2,
+                "PUNCT": 1,
+                "PRON": -1,
+                "AUX": 1,
+                "DET": -2,
+                "NOUN": -1,
+                "PART": 1,
+                "CCONJ": -1
+            }
+        }
+    },
+    {
+        "input_text": "<p> We believe life is better when you venture out and explore the world. You meet other people, you connect with family & friends, you do more business, and you have new experiences. In short, travel creates memories. Travel brings people closer together and fosters better understanding of each other and ourselves.</p>",
+        "translations": {
+            "to_spanish": "<p> Creemos que la vida es mejor cuando te aventuras y exploras el mundo. Conoces a otras personas, te conectas con familiares y amigos, haces más negocios y tienes nuevas experiencias. En resumen, viajar crea recuerdos. Viajar acerca a las personas y fomenta una mejor comprensión de los demás y de nosotros mismos.</p>",
+            "to_english": "<p> We believe that life is better when you venture out and explore the world. You meet other people, connect with relatives and friends, do more business and have new experiences. In short, traveling creates memories. Traveling brings people together and promotes a better understanding of others and of ourselves.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 2.100447654724121,
+            "to_english": 1.8951048851013184
+        },
+        "bleu_score": 0.4525931742328872,
+        "pos_analysis": {
+            "source_pos": {
+                "X": 4,
+                "PRON": 6,
+                "VERB": 10,
+                "NOUN": 12,
+                "AUX": 1,
+                "ADJ": 7,
+                "SCONJ": 1,
+                "ADP": 4,
+                "CCONJ": 5,
+                "DET": 2,
+                "PUNCT": 7,
+                "ADV": 2,
+                "PROPN": 1
+            },
+            "target_pos": {
+                "NOUN": 13,
+                "CCONJ": 6,
+                "VERB": 8,
+                "PROPN": 3,
+                "SCONJ": 2,
+                "DET": 6,
+                "AUX": 1,
+                "ADJ": 5,
+                "PRON": 4,
+                "PUNCT": 6,
+                "ADP": 6,
+                "ADV": 2
+            },
+            "differences": {
+                "X": 4,
+                "PRON": 2,
+                "VERB": 2,
+                "NOUN": -1,
+                "ADJ": 2,
+                "SCONJ": -1,
+                "ADP": -2,
+                "CCONJ": -1,
+                "DET": -4,
+                "PUNCT": 1,
+                "PROPN": -2
+            }
+        }
+    },
+    {
+        "input_text": "<p> Rent By Owner relies on the eco-score created by <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.onedegreeleft.com\">One Degree Left</a>, a sister-company operated by parent company UpNext Group. This property looks at a number of factors to help score all properties based on a variety of sustainability factors. We believe that we can help elevate properties that have good environmental and sustainability practices. If we identify a property that has good practices, we will rank that property higher in our search results than other properties. By ranking these properties higher, hopefully they will be booked with greater frequency and nudge behavior by a small factor… by ‘one degree’ if you will. While it is not perfect, it is part of our commitment to driving more sustainable travel.</p>",
+        "translations": {
+            "to_spanish": "<p> Rent By Owner se basa en el eco-score creado por <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.onedegreeleft.com\">One Degree Left</a>, una empresa hermana operada por la empresa matriz UpNext Group. Esta propiedad considera una serie de factores para ayudar a puntuar todas las propiedades basándose en una variedad de factores de sostenibilidad. Creemos que podemos ayudar a mejorar las propiedades que tienen buenas prácticas ambientales y de sostenibilidad. Si identificamos una propiedad que tiene buenas prácticas, clasificaremos esa propiedad más alta en nuestros resultados de búsqueda que otras propiedades. Al clasificar estas propiedades más altas, esperamos que se reserve con mayor frecuencia y se cambie el comportamiento en una pequeña medida... en 'un grado' si se quiere. Aunque no es perfecto, es parte de nuestro compromiso de impulsar un viaje más sostenible.</p>",
+            "to_english": "<p> Rent By Owner is based on the eco-score created by <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.onedegreeleft.com\">One Degree Left</a>, a sister company operated by the parent company UpNext Group. This property considers a series of factors to help score all properties based on a variety of sustainability factors. We believe we can help improve properties that have good environmental and sustainability practices. If we identify a property that has good practices, we will rank that property higher in our search results than other properties. By ranking these properties higher, we expect they will be booked more frequently and change behavior to a small extent... by 'one degree' if you will. Although it's not perfect, it is part of our commitment to driving more sustainable travel.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 4.960895299911499,
+            "to_english": 3.732606887817383
+        },
+        "bleu_score": 0.6983034960828839,
+        "pos_analysis": {
+            "source_pos": {
+                "X": 6,
+                "NOUN": 35,
+                "ADP": 16,
+                "PROPN": 6,
+                "VERB": 18,
+                "DET": 12,
+                "PUNCT": 19,
+                "ADJ": 9,
+                "PART": 2,
+                "PRON": 12,
+                "SCONJ": 4,
+                "AUX": 7,
+                "CCONJ": 2,
+                "ADV": 4,
+                "NUM": 1
+            },
+            "target_pos": {
+                "NOUN": 29,
+                "CCONJ": 3,
+                "NUM": 2,
+                "PROPN": 10,
+                "PRON": 7,
+                "VERB": 21,
+                "ADP": 20,
+                "DET": 19,
+                "SYM": 3,
+                "ADJ": 12,
+                "PUNCT": 13,
+                "SCONJ": 5,
+                "AUX": 3,
+                "ADV": 4
+            },
+            "differences": {
+                "X": 6,
+                "NOUN": 6,
+                "ADP": -4,
+                "PROPN": -4,
+                "VERB": -3,
+                "DET": -7,
+                "PUNCT": 6,
+                "ADJ": -3,
+                "PART": 2,
+                "PRON": 5,
+                "SCONJ": -1,
+                "AUX": 4,
+                "CCONJ": -1,
+                "NUM": -1
+            }
+        }
+    },
+    {
+        "input_text": "<p> Rent By Owner was launched first in 2013 and has evolved as a business since then. It is part of the UpNext Group family of websites. UpNext Group helps travelers find the perfect place to stay, easily comparing rentals, condos, hotels, RVs, boats, activities, and resorts across an ever-growing network of niche travel brands and websites. Rent By Owner operates in multiple countries and languages.</p",
+        "translations": {
+            "to_spanish": "<p> Rent By Owner fue lanzado por primera vez en 2013 y ha evolucionado como negocio desde entonces. Es parte de la familia de sitios web de UpNext Group. UpNext Group ayuda a los viajeros a encontrar el lugar perfecto para hospedarse, comparando fácilmente alquileres, condominios, hoteles, casas rodantes, barcos, actividades y resorts a través de una red en constante crecimiento de marcas y sitios web de viajes de nicho. Rent By Owner opera en múltiples países y lenguajes.</p>",
+            "to_english": "<p> Rent By Owner was first launched in 2013 and has evolved as a business since then. It is part of the UpNext Group family of websites. UpNext Group helps travelers find the perfect place to stay, easily comparing rentals, condos, hotels, RVs, boats, activities, and resorts across a constantly growing network of niche travel brands and websites. Rent By Owner operates in multiple countries and languages.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 2.9607841968536377,
+            "to_english": 2.120126247406006
+        },
+        "bleu_score": 0.8681717037710727,
+        "pos_analysis": {
+            "source_pos": {
+                "X": 3,
+                "NOUN": 20,
+                "ADP": 9,
+                "PROPN": 7,
+                "AUX": 3,
+                "VERB": 8,
+                "ADV": 4,
+                "NUM": 2,
+                "CCONJ": 4,
+                "DET": 4,
+                "SCONJ": 1,
+                "PUNCT": 11,
+                "PRON": 1,
+                "ADJ": 2,
+                "PART": 1
+            },
+            "target_pos": {
+                "NOUN": 24,
+                "CCONJ": 5,
+                "NUM": 2,
+                "PROPN": 11,
+                "AUX": 3,
+                "VERB": 6,
+                "ADP": 16,
+                "ADJ": 8,
+                "SCONJ": 1,
+                "ADV": 2,
+                "PUNCT": 9,
+                "DET": 4
+            },
+            "differences": {
+                "X": 3,
+                "NOUN": -4,
+                "ADP": -7,
+                "PROPN": -4,
+                "VERB": 2,
+                "ADV": 2,
+                "CCONJ": -1,
+                "PUNCT": 2,
+                "PRON": 1,
+                "ADJ": -6,
+                "PART": 1
+            }
+        }
+    },
+    {
+        "input_text": "<p> We strive to show accurate pricing for a property based on the lowest nightly rate we have been able to find for a property. For the most accurate pricing, please input your date range and search for the property. You will be referred over to the partner or the property owner’s own website to confirm the specific pricing. We are working on functionality to find you the best price across multiple websites for the property you are interested in. Stay tuned as we refine this feature.</p>",
+        "translations": {
+            "to_spanish": "<p> Nos esforzamos por mostrar precios precisos para una propiedad basados en la tarifa nocturna más baja que hemos podido encontrar para una propiedad. Para obtener los precios más precisos, por favor ingrese el rango de fechas y busque la propiedad. Será referido al sitio web del socio o del propietario de la propiedad para confirmar el precio específico. Estamos trabajando en la funcionalidad para encontrarle el mejor precio en múltiples sitios web para la propiedad que le interesa. Manténgase atento mientras perfeccionamos esta característica.</p>",
+            "to_english": "<p> We strive to display accurate prices for a property based on the lowest nightly rate we have been able to find for a property. To get the most accurate prices, please enter the date range and search for the property. You will be referred to the partner's or property owner's website to confirm the specific price. We are working on the functionality to find you the best price across multiple websites for the property you are interested in. Stay tuned as we perfect this feature.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 3.582923650741577,
+            "to_english": 2.10982346534729
+        },
+        "bleu_score": 0.6691648408626252,
+        "pos_analysis": {
+            "source_pos": {
+                "X": 4,
+                "PRON": 8,
+                "VERB": 13,
+                "PART": 5,
+                "ADJ": 10,
+                "NOUN": 17,
+                "ADP": 11,
+                "DET": 11,
+                "AUX": 6,
+                "PUNCT": 5,
+                "ADV": 1,
+                "INTJ": 1,
+                "CCONJ": 2,
+                "SCONJ": 1,
+                "PROPN": 1
+            },
+            "target_pos": {
+                "NOUN": 20,
+                "CCONJ": 3,
+                "NUM": 1,
+                "PRON": 3,
+                "VERB": 12,
+                "ADP": 16,
+                "ADJ": 12,
+                "DET": 12,
+                "ADV": 2,
+                "SCONJ": 2,
+                "AUX": 5,
+                "PUNCT": 5
+            },
+            "differences": {
+                "X": 4,
+                "PRON": 5,
+                "VERB": 1,
+                "PART": 5,
+                "ADJ": -2,
+                "NOUN": -3,
+                "ADP": -5,
+                "DET": -1,
+                "AUX": 1,
+                "ADV": -1,
+                "INTJ": 1,
+                "CCONJ": -1,
+                "SCONJ": -1,
+                "PROPN": 1
+            }
+        }
+    },
+    {
+        "input_text": "<p> Each property listed on our website has a detailed listing. These listings often include photos, amenities, property policies, and more. This information has been received from our partners, directly from the property manager/owner themselves, or from information we have managed to find online about the property from multiple sources. This has also included information we may have extracted from analysing the images of the photos, the neighborhood in which the property is located, or similar properties in the same complex. However, Rent By Owner is not responsible or liable for the accuracy of these results. While we attempt to be as accurate as possible, should you have a specific question or concern, we encourage you to contact the property owner directly via the website to which we refer you to.</p>",
+        "translations": {
+            "to_spanish": "<p> Cada propiedad listada en nuestro sitio web tiene un listado detallado. Estos listados a menudo incluyen fotos, comodidades, políticas de la propiedad y más. Esta información ha sido recibida de nuestros socios, directamente del propietario/administrador de la propiedad, o de información que hemos podido encontrar en línea sobre la propiedad de múltiples fuentes. Esto también ha incluido información que podríamos haber extraído del análisis de las imágenes de las fotos, el vecindario en el que se encuentra la propiedad o propiedades similares en el mismo complejo. Sin embargo, Rent By Owner no es responsable ni liable de la exactitud de estos resultados. Aunque intentamos ser lo más precisos posible, si tienes una pregunta o inquietud específica, te animamos a contactar directamente al propietario de la propiedad a través del sitio web al que te referimos.</p>",
+            "to_english": "<p> Each property listed on our website has a detailed listing. These listings often include photos, amenities, property policies, and more. This information has been received from our partners, directly from the property owner/manager, or from information we have been able to find online about the property from multiple sources. This has also included information that we may have extracted from the analysis of the images of the photos, the neighborhood in which the property is located, or similar properties in the same complex. However, Rent By Owner is not responsible or liable for the accuracy of these results. Although we try to be as accurate as possible, if you have a specific question or concern, we encourage you to contact the property owner directly through the website we refer you to.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 4.673081398010254,
+            "to_english": 4.829730272293091
+        },
+        "bleu_score": 0.8163276771120979,
+        "pos_analysis": {
+            "source_pos": {
+                "X": 4,
+                "DET": 16,
+                "NOUN": 30,
+                "VERB": 15,
+                "ADP": 15,
+                "PRON": 14,
+                "ADJ": 10,
+                "PUNCT": 16,
+                "ADV": 7,
+                "CCONJ": 5,
+                "AUX": 10,
+                "SYM": 1,
+                "PART": 5,
+                "PROPN": 2,
+                "SCONJ": 1
+            },
+            "target_pos": {
+                "NOUN": 36,
+                "CCONJ": 6,
+                "NUM": 2,
+                "DET": 21,
+                "ADJ": 11,
+                "ADP": 23,
+                "VERB": 12,
+                "PUNCT": 14,
+                "ADV": 6,
+                "AUX": 9,
+                "PRON": 9,
+                "PROPN": 3,
+                "SCONJ": 2
+            },
+            "differences": {
+                "X": 4,
+                "DET": -5,
+                "NOUN": -6,
+                "VERB": 3,
+                "ADP": -8,
+                "PRON": 5,
+                "ADJ": -1,
+                "PUNCT": 2,
+                "ADV": 1,
+                "CCONJ": -1,
+                "AUX": 1,
+                "SYM": 1,
+                "PART": 5,
+                "PROPN": -1,
+                "SCONJ": -1
+            }
+        }
+    },
+    {
+        "input_text": "<p> If your property has been removed from a partner’s website, it is possible that we still have cached the listing or are in the process of having it be removed from our website. In time, it will also be unpublished from our network of sites. If you would like to remove it faster, please <a class=\"static-page-link\" target=\"_blank\" href=\"https://www.upnextgroup.com/contact-us\" rel=\"noopener noreferrer\">contact us</a> and we will see if we can help.</p>",
+        "translations": {
+            "to_spanish": "<p> Si su propiedad ha sido eliminada del sitio web de un socio, es posible que aún tengamos la lista en caché o que estemos en el proceso de eliminarla de nuestro sitio web. Con el tiempo, también se retirará de nuestra red de sitios. Si desea eliminarla más rápido, por favor <a class=\"static-page-link\" target=\"_blank\" href=\"https://www.upnextgroup.com/contact-us\" rel=\"noopener noreferrer\">contáctenos</a> y veremos si podemos ayudar.</p>",
+            "to_english": "<p> If your property has been removed from a partner's website, it is possible that we still have the listing cached or that we are in the process of removing it from our website. Over time, it will also be removed from our network of sites. If you want to remove it faster, please <a class=\"static-page-link\" target=\"_blank\" href=\"https://www.upnextgroup.com/contact-us\" rel=\"noopener noreferrer\">contact us</a> and we will see if we can help.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 3.028900384902954,
+            "to_english": 2.403189182281494
+        },
+        "bleu_score": 0.7091193819823335,
+        "pos_analysis": {
+            "source_pos": {
+                "X": 7,
+                "SCONJ": 4,
+                "PRON": 11,
+                "NOUN": 13,
+                "AUX": 11,
+                "VERB": 7,
+                "ADP": 7,
+                "DET": 4,
+                "PART": 2,
+                "PUNCT": 11,
+                "ADJ": 3,
+                "ADV": 3,
+                "CCONJ": 2,
+                "INTJ": 1,
+                "PROPN": 5,
+                "SYM": 1
+            },
+            "target_pos": {
+                "NOUN": 14,
+                "CCONJ": 3,
+                "NUM": 2,
+                "SCONJ": 5,
+                "DET": 7,
+                "AUX": 4,
+                "VERB": 11,
+                "ADP": 11,
+                "ADJ": 6,
+                "PUNCT": 8,
+                "ADV": 3,
+                "PROPN": 3,
+                "PRON": 1
+            },
+            "differences": {
+                "X": 7,
+                "SCONJ": -1,
+                "PRON": 10,
+                "NOUN": -1,
+                "AUX": 7,
+                "VERB": -4,
+                "ADP": -4,
+                "DET": -3,
+                "PART": 2,
+                "PUNCT": 3,
+                "ADJ": -3,
+                "CCONJ": -1,
+                "INTJ": 1,
+                "PROPN": 2,
+                "SYM": 1
+            }
+        }
+    },
+    {
+        "input_text": "<p> At Rent By Owner, have listed the properties from our partners, including many online travel agents (OTAs) and direct via channel managers who distribute their inventory onto sites like ours, and the entire UpNext Group network. It is likely that you had agreed for the added distribution when you signed up with their services. We refer all our visitors to our partners or direct to our property owner’s sites and do not take bookings on our site directly. Our job is to help them promote their inventory and sell more travel and ensure that fewer nights go un-booked. There is no additional cost to listing on our network.</p>",
+        "translations": {
+            "to_spanish": "<p> En Rent By Owner, hemos listado las propiedades de nuestros socios, incluidos muchos agentes de viajes en línea (OTAs) y directamente a través de gestores de canales que distribuyen su inventario en sitios como el nuestro y en toda la red del grupo UpNext. Es probable que haya aceptado la distribución adicional cuando se registró en sus servicios. Derivamos a todos nuestros visitantes a nuestros socios o directamente a los sitios de nuestros propietarios y no realizamos reservas directamente en nuestro sitio. Nuestro trabajo es ayudarlos a promocionar su inventario, vender más viajes y asegurarnos de que menos noches queden sin reserva. No hay costo adicional por listar en nuestra red.</p>",
+            "to_english": "<p> At Rent By Owner, we have listed the properties of our partners, including many online travel agents (OTAs) and directly through channel managers who distribute their inventory on sites like ours and throughout the UpNext group network. It is likely that you agreed to additional distribution when you signed up for their services. We refer all our visitors to our partners or directly to our owners' sites and do not make bookings directly on our site. Our job is to help you promote your inventory, sell more trips, and ensure that fewer nights go unbooked. There is no additional cost to list on our network.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 3.779235601425171,
+            "to_english": 2.799795150756836
+        },
+        "bleu_score": 0.49845855670090766,
+        "pos_analysis": {
+            "source_pos": {
+                "X": 4,
+                "ADP": 14,
+                "PROPN": 6,
+                "PUNCT": 9,
+                "AUX": 5,
+                "VERB": 16,
+                "DET": 5,
+                "NOUN": 23,
+                "PRON": 18,
+                "ADJ": 11,
+                "CCONJ": 6,
+                "SCONJ": 3,
+                "PART": 3,
+                "ADV": 1
+            },
+            "target_pos": {
+                "NOUN": 27,
+                "CCONJ": 6,
+                "PROPN": 7,
+                "ADP": 21,
+                "PUNCT": 9,
+                "AUX": 5,
+                "VERB": 12,
+                "DET": 18,
+                "ADV": 7,
+                "PRON": 3,
+                "SCONJ": 4,
+                "ADJ": 4,
+                "NUM": 1
+            },
+            "differences": {
+                "X": 4,
+                "ADP": -7,
+                "PROPN": -1,
+                "VERB": 4,
+                "DET": -13,
+                "NOUN": -4,
+                "PRON": 15,
+                "ADJ": 7,
+                "SCONJ": -1,
+                "PART": 3,
+                "ADV": -6
+            }
+        }
+    },
+    {
+        "input_text": "<p> To make changes to your reservation, please visit the partner’s website with whom you booked. As an affiliate provider, we consolidate multiple travel sites in one easy search; however, we cannot access your reservation information. Please check your email for reservation details to see the partner with whom you have booked. At this time, no bookings are made directly via our website, so we are unable to help you modify, cancel, or change a reservation.</p>",
+        "translations": {
+            "to_spanish": "<p> Para hacer cambios en su reserva, visite el sitio web del socio con quien reservó. Como proveedor afiliado, consolidamos múltiples sitios de viajes en una sola búsqueda fácil; sin embargo, no podemos acceder a la información de su reserva. Por favor, verifique su correo electrónico para ver los detalles de la reserva y el socio con quien ha reservado. En este momento, no se realizan reservas directamente a través de nuestro sitio web, por lo que no podemos ayudarlo a modificar, cancelar o cambiar una reserva.</p>",
+            "to_english": "<p> To make changes to your reservation, visit the website of the partner with whom you booked. As an affiliate provider, we consolidate multiple travel sites into a single easy search; however, we cannot access your reservation information. Please check your email for the reservation details and the partner with whom you have booked. At this time, reservations are not made directly through our website, so we cannot help you modify, cancel, or change a reservation.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 3.0760574340820312,
+            "to_english": 2.002220630645752
+        },
+        "bleu_score": 0.6551121743864555,
+        "pos_analysis": {
+            "source_pos": {
+                "X": 4,
+                "PART": 5,
+                "VERB": 13,
+                "NOUN": 18,
+                "ADP": 8,
+                "PRON": 12,
+                "PUNCT": 11,
+                "INTJ": 2,
+                "DET": 6,
+                "ADJ": 3,
+                "NUM": 1,
+                "ADV": 2,
+                "AUX": 4,
+                "SCONJ": 1,
+                "CCONJ": 1,
+                "PROPN": 1
+            },
+            "target_pos": {
+                "NOUN": 23,
+                "CCONJ": 3,
+                "NUM": 1,
+                "ADP": 18,
+                "VERB": 12,
+                "DET": 12,
+                "PUNCT": 11,
+                "ADJ": 8,
+                "PRON": 5,
+                "SCONJ": 1,
+                "ADV": 4,
+                "AUX": 3
+            },
+            "differences": {
+                "X": 4,
+                "PART": 5,
+                "VERB": 1,
+                "NOUN": -5,
+                "ADP": -10,
+                "PRON": 7,
+                "INTJ": 2,
+                "DET": -6,
+                "ADJ": -5,
+                "ADV": -2,
+                "AUX": 1,
+                "CCONJ": -2,
+                "PROPN": 1
+            }
+        }
+    }
+]
