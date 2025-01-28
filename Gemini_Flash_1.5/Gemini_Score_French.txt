@@ -1,20 +1,4 @@
-Average Time Taken for Translations:
-
-    Average French Time: 2.038 seconds
-    Average English Time: 2.147 seconds
-
-Average BLEU Score:
-
-    Overall average BLEU score: 0.5862
-
-POS Analysis Score:
-
-    Average POS Difference Score: 14.4
-    
-Explanation of the Scores:
-
-Time Taken: The average time for French translations (2.038 seconds) and English translations (2.147 seconds) indicates a consistent translation process with minimal variation in processing times.
-
-BLEU Score: The average BLEU score of 0.5862 suggests moderate similarity between the translated text and the reference. This indicates a good quality of translation, though not perfect.
-
-POS Analysis Score: The average POS difference score of 14.4 represents the total structural differences (in part-of-speech tags) between the original and translated texts. A higher score here reflects greater syntactic variation. ​
+Average Time to Translate to French: 2.038 seconds
+Average Time to Translate to English: 2.147 seconds
+Average BLEU Score: 0.586
+Average POS Score (absolute differences): 14.4

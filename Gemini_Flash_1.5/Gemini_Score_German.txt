@@ -1,12 +1,4 @@
-Average Time Taken for Translations:
-
-    Average German Time: 1.8797 seconds
-    Average English Time: 2.147 seconds
-
-Average BLEU Score:
-
-    Overall average BLEU score: 0.5862
-
-POS Analysis Score:
-
-    Average POS Difference Score: 14.4
+Average Time to Translate to German: 1.880 seconds
+Average Time to Translate to English: 1.897 seconds
+Average BLEU Score: 0.657
+Average POS Score (absolute differences): 19.8

@@ -1,8 +1,7 @@
-Overall Average Translation Time: 2.082 seconds
-
-Overall Average BLEU Score: 0.5737
-
-Overall Average POS Difference Score: 10.733
+Average Time to Translate to Target Language: 2.056 seconds
+Average Time to Translate to English: 2.090 seconds
+Average BLEU Score: 0.637
+Average POS Score (absolute differences): 13.9
 
 Limitations:
 1000 RPM (Requests per minute)
