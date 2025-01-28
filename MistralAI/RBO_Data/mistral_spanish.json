@@ -1,0 +1,997 @@
+[
+    {
+        "input_text": "Recently Discovered on Rent By Owner",
+        "translations": {
+            "to_spanish": "Recién descubierto en Rent By Owner™",
+            "to_english": "Just discovered on Rent By Owner™"
+        },
+        "time_taken": {
+            "to_spanish": 0.5261449813842773,
+            "to_english": 0.47255468368530273
+        },
+        "bleu_score": 0.20205155046766235,
+        "word_count": {
+            "source_english": 6,
+            "processed_english": 6
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "ADV": 1,
+                "VERB": 1,
+                "ADP": 2,
+                "PROPN": 2
+            },
+            "target_pos": {
+                "ADV": 1,
+                "VERB": 1,
+                "ADP": 1,
+                "PROPN": 4
+            },
+            "differences": {
+                "ADP": 1,
+                "PROPN": -2
+            }
+        }
+    },
+    {
+        "input_text": "<p> At Rent By Owner, we want everyone to be an owner, just as we want everyone to be a traveler. In creating more travelers, hopefully we are creating more owners. And in creating more owners, we will be creating more travelers. You can <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.upnextgroup.com/about-us\">read more about our core values</a> for UpNext Group here. We also look forward to showing you what we are creating in the months and years ahead. Stay tuned.</p>",
+        "translations": {
+            "to_spanish": "<p> En Rent By Owner, queremos que todos sean propietarios, así como queremos que todos sean viajeros. Al crear más viajeros, esperamos estar creando más propietarios. Y al crear más propietarios, estaremos creando más viajeros. Puedes <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.upnextgroup.com/about-us\">leer más sobre nuestros valores fundamentales</a> para UpNext Group aquí. También esperamos mostrarte lo que estamos creando en los meses y años venideros. Mantente atento.</p>",
+            "to_english": "<p> At Rent By Owner, we want everyone to be owners, just as we want everyone to be travelers. By creating more travelers, we hope to be creating more owners. And by creating more owners, we will be creating more travelers. You can <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.upnextgroup.com/about-us\">read more about our core values</a> for UpNext Group here. We also hope to show you what we are building in the months and years to come. Stay tuned.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 3.6335980892181396,
+            "to_english": 2.7030444145202637
+        },
+        "bleu_score": 0.6657619348867159,
+        "word_count": {
+            "source_english": 78,
+            "processed_english": 77
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "X": 6,
+                "ADP": 9,
+                "PROPN": 5,
+                "PUNCT": 15,
+                "PRON": 12,
+                "VERB": 11,
+                "PART": 2,
+                "AUX": 7,
+                "DET": 5,
+                "NOUN": 14,
+                "ADV": 6,
+                "SCONJ": 1,
+                "ADJ": 6,
+                "CCONJ": 2,
+                "SYM": 1,
+                "NUM": 1
+            },
+            "target_pos": {
+                "NOUN": 13,
+                "CCONJ": 3,
+                "PROPN": 9,
+                "ADP": 7,
+                "PUNCT": 12,
+                "VERB": 12,
+                "SCONJ": 3,
+                "PRON": 4,
+                "AUX": 6,
+                "ADV": 8,
+                "NUM": 3,
+                "DET": 2,
+                "ADJ": 3
+            },
+            "differences": {
+                "X": 6,
+                "ADP": 2,
+                "PROPN": -4,
+                "PUNCT": 3,
+                "PRON": 8,
+                "VERB": -1,
+                "PART": 2,
+                "AUX": 1,
+                "DET": 3,
+                "NOUN": 1,
+                "ADV": -2,
+                "SCONJ": -2,
+                "ADJ": 3,
+                "CCONJ": -1,
+                "SYM": 1,
+                "NUM": -2
+            }
+        }
+    },
+    {
+        "input_text": "<p> Historically, Rent By Owner has been a meta brand, connecting travelers to travel sellers, and since 2013, this has served us well. We believe that by helping more than a million travelers, we now have a great base on which to build something new and spectacular. Going forward, we need to build closer relationships with both sides of the market--both travelers and owners-- so as to bring them together in new ways and into a deeper relationship with each other and the communities into which the traveler journeys.</p>",
+        "translations": {
+            "to_spanish": "<p> Históricamente, Rent By Owner ha sido una meta marca, conectando viajeros con vendedores de viajes, y desde 2013, esto nos ha servido bien. Creemos que al ayudar a más de un millón de viajeros, ahora tenemos una gran base sobre la cual construir algo nuevo y espectacular. A partir de ahora, necesitamos construir relaciones más cercanas con ambos lados del mercado--tanto viajeros como propietarios-- para así unirlos de nuevas maneras y en una relación más profunda entre ellos y las comunidades a las que el viajero se dirige.</p>",
+            "to_english": "<p> Historically, Rent By Owner™ has been an umbrella brand, connecting travelers with travel sellers, and since 2013, this has served us well. We believe that by helping more than a million travelers, we now have a great foundation on which to build something new and spectacular. From now on, we need to build closer relationships with both sides of the market--both travelers and owners--to thus unite them in new ways and in a deeper relationship between them and the communities to which the traveler is headed.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 3.251142978668213,
+            "to_english": 2.49881649017334
+        },
+        "bleu_score": 0.6140410204470068,
+        "word_count": {
+            "source_english": 89,
+            "processed_english": 87
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "X": 4,
+                "ADV": 5,
+                "PUNCT": 9,
+                "PROPN": 3,
+                "ADP": 10,
+                "AUX": 3,
+                "DET": 9,
+                "ADJ": 9,
+                "NOUN": 14,
+                "VERB": 11,
+                "PART": 4,
+                "CCONJ": 5,
+                "SCONJ": 4,
+                "NUM": 2,
+                "PRON": 10
+            },
+            "target_pos": {
+                "NOUN": 18,
+                "CCONJ": 5,
+                "PROPN": 6,
+                "PUNCT": 8,
+                "AUX": 3,
+                "DET": 7,
+                "ADJ": 9,
+                "VERB": 9,
+                "ADP": 17,
+                "PRON": 7,
+                "ADV": 7,
+                "SCONJ": 2,
+                "NUM": 2
+            },
+            "differences": {
+                "X": 4,
+                "ADV": -2,
+                "PUNCT": 1,
+                "PROPN": -3,
+                "ADP": -7,
+                "DET": 2,
+                "NOUN": -4,
+                "VERB": 2,
+                "PART": 4,
+                "SCONJ": 2,
+                "PRON": 3
+            }
+        }
+    },
+    {
+        "input_text": "<p> At Rent By Owner, we are focusing on the Alternative Accommodations market. We believe this market encourages people to have a more authentic travel experience in the communities, homes, and places of others. Creating a direct connection between a traveler and an owner creates a more meaningful experience. Sharing cultures, recipes, local tips, insights, pride, activities, art, food, entertainment... sights, sounds, smells and senses. These are the memories worth sharing.</p>",
+        "translations": {
+            "to_spanish": "<p> En Rent By Owner, nos enfocamos en el mercado de Alojamientos Alternativos. Creemos que este mercado fomenta que las personas tengan una experiencia de viaje más auténtica en las comunidades, hogares y lugares de otros. Crear una conexión directa entre un viajero y un propietario crea una experiencia más significativa. Compartir culturas, recetas, consejos locales, conocimientos, orgullo, actividades, arte, comida, entretenimiento... vistas, sonidos, olores y sentidos. Estos son los recuerdos que valen la pena compartir.</p>",
+            "to_english": "<p> At Rent By Owner, we focus on the Alternative Accommodations market. We believe that this market encourages people to have a more authentic travel experience in the communities, homes, and places of others. Creating a direct connection between a traveler and an owner creates a more meaningful experience. Sharing cultures, recipes, local tips, knowledge, pride, activities, art, food, entertainment... views, sounds, smells, and senses. These are the memories worth sharing.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 3.220630407333374,
+            "to_english": 2.0781185626983643
+        },
+        "bleu_score": 0.8266627565446429,
+        "word_count": {
+            "source_english": 71,
+            "processed_english": 71
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "X": 4,
+                "ADP": 6,
+                "PROPN": 5,
+                "PUNCT": 18,
+                "PRON": 3,
+                "AUX": 2,
+                "VERB": 8,
+                "DET": 9,
+                "NOUN": 26,
+                "PART": 1,
+                "ADV": 2,
+                "ADJ": 5,
+                "CCONJ": 3
+            },
+            "target_pos": {
+                "NOUN": 27,
+                "CCONJ": 4,
+                "PROPN": 7,
+                "ADP": 7,
+                "PUNCT": 17,
+                "PRON": 4,
+                "VERB": 8,
+                "DET": 11,
+                "SCONJ": 2,
+                "ADV": 2,
+                "ADJ": 5,
+                "AUX": 1,
+                "NUM": 1
+            },
+            "differences": {
+                "X": 4,
+                "ADP": -1,
+                "PROPN": -2,
+                "PUNCT": 1,
+                "PRON": -1,
+                "AUX": 1,
+                "DET": -2,
+                "NOUN": -1,
+                "PART": 1,
+                "CCONJ": -1
+            }
+        }
+    },
+    {
+        "input_text": "Why does Rent By Owner exist? What are your core values? What are you trying to achieve?",
+        "translations": {
+            "to_spanish": "¿Por qué existe Rent By Owner™? ¿Cuáles son tus valores fundamentales? ¿Qué estás tratando de lograr?",
+            "to_english": "Why does Rent By Owner™ exist? What are your fundamental values? What are you trying to achieve?"
+        },
+        "time_taken": {
+            "to_spanish": 0.9573400020599365,
+            "to_english": 1.192981243133545
+        },
+        "bleu_score": 0.6422727797927412,
+        "word_count": {
+            "source_english": 17,
+            "processed_english": 17
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "SCONJ": 1,
+                "AUX": 3,
+                "PROPN": 2,
+                "ADP": 1,
+                "VERB": 3,
+                "PUNCT": 3,
+                "PRON": 4,
+                "NOUN": 2,
+                "PART": 1
+            },
+            "target_pos": {
+                "PUNCT": 6,
+                "ADP": 2,
+                "PRON": 3,
+                "VERB": 3,
+                "PROPN": 4,
+                "AUX": 2,
+                "DET": 1,
+                "NOUN": 1,
+                "ADJ": 1
+            },
+            "differences": {
+                "SCONJ": 1,
+                "AUX": 1,
+                "PROPN": -2,
+                "ADP": -1,
+                "PUNCT": -3,
+                "PRON": 1,
+                "NOUN": 1,
+                "PART": 1
+            }
+        }
+    },
+    {
+        "input_text": "<p> Rent By Owner relies on the eco-score created by <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.onedegreeleft.com\">One Degree Left</a>, a sister-company operated by parent company UpNext Group. This property looks at a number of factors to help score all properties based on a variety of sustainability factors. We believe that we can help elevate properties that have good environmental and sustainability practices. If we identify a property that has good practices, we will rank that property higher in our search results than other properties. By ranking these properties higher, hopefully they will be booked with greater frequency and nudge behavior by a small factor… by ‘one degree’ if you will. While it is not perfect, it is part of our commitment to driving more sustainable travel.</p>",
+        "translations": {
+            "to_spanish": "<p> Rent By Owner se basa en el eco-score creado por <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.onedegreeleft.com\">One Degree Left</a>, una empresa hermana operada por la empresa matriz UpNext Group. Esta propiedad analiza una serie de factores para ayudar a puntuar todas las propiedades en función de diversos factores de sostenibilidad. Creemos que podemos contribuir a mejorar la visibilidad de las propiedades que tienen buenas prácticas ambientales y de sostenibilidad. Si identificamos una propiedad con buenas prácticas, la posicionaremos más alto en nuestros resultados de búsqueda que otras propiedades. Al posicionar estas propiedades más alto, esperamos que se reserve con mayor frecuencia y que influya en el comportamiento aunque sea en pequeña medida... en 'un grado' si se quiere. Aunque no es perfecto, es parte de nuestro compromiso de impulsar un viaje más sostenible.</p>",
+            "to_english": "<p> Rent By Owner™ is based on the eco-score created by <a class=\"static-page-link\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.onedegreeleft.com\">One Degree Left</a>, a sister company operated by parent company UpNext Group. This feature analyzes a number of factors to help score all properties based on various sustainability factors. We believe we can help improve the visibility of properties that have good environmental and sustainability practices. If we identify a property with good practices, we will position it higher in our search results than other properties. By positioning these properties higher, we hope they will be booked more frequently and influence behavior even in a small way... in 'one degree' if you will. Although it's not perfect, it's part of our commitment to driving more sustainable travel.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 5.9616923332214355,
+            "to_english": 3.8643805980682373
+        },
+        "bleu_score": 0.5519751310006388,
+        "word_count": {
+            "source_english": 125,
+            "processed_english": 123
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "X": 6,
+                "NOUN": 35,
+                "ADP": 16,
+                "PROPN": 6,
+                "VERB": 18,
+                "DET": 12,
+                "PUNCT": 19,
+                "ADJ": 9,
+                "PART": 2,
+                "PRON": 12,
+                "SCONJ": 4,
+                "AUX": 7,
+                "CCONJ": 2,
+                "ADV": 4,
+                "NUM": 1
+            },
+            "target_pos": {
+                "NOUN": 29,
+                "CCONJ": 3,
+                "NUM": 2,
+                "PROPN": 10,
+                "PRON": 6,
+                "VERB": 19,
+                "ADP": 23,
+                "DET": 18,
+                "SYM": 3,
+                "ADJ": 12,
+                "PUNCT": 13,
+                "SCONJ": 7,
+                "AUX": 4,
+                "ADV": 4
+            },
+            "differences": {
+                "X": 6,
+                "NOUN": 6,
+                "ADP": -7,
+                "PROPN": -4,
+                "VERB": -1,
+                "DET": -6,
+                "PUNCT": 6,
+                "ADJ": -3,
+                "PART": 2,
+                "PRON": 6,
+                "SCONJ": -3,
+                "AUX": 3,
+                "CCONJ": -1,
+                "NUM": -1
+            }
+        }
+    },
+    {
+        "input_text": "How does Rent By Owner identify an eco-friendly or sustainable property?",
+        "translations": {
+            "to_spanish": "¿Cómo identifica Rent By Owner una propiedad ecológica o sostenible?",
+            "to_english": "How does Rent By Owner identify an eco-friendly or sustainable property?"
+        },
+        "time_taken": {
+            "to_spanish": 0.7722039222717285,
+            "to_english": 0.6518843173980713
+        },
+        "bleu_score": 1.0,
+        "word_count": {
+            "source_english": 11,
+            "processed_english": 11
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "SCONJ": 1,
+                "AUX": 1,
+                "PROPN": 2,
+                "ADP": 1,
+                "VERB": 1,
+                "DET": 1,
+                "NOUN": 2,
+                "PUNCT": 2,
+                "ADJ": 2,
+                "CCONJ": 1
+            },
+            "target_pos": {
+                "PUNCT": 2,
+                "PRON": 1,
+                "VERB": 1,
+                "PROPN": 3,
+                "DET": 1,
+                "NOUN": 1,
+                "ADJ": 2,
+                "CCONJ": 1
+            },
+            "differences": {
+                "SCONJ": 1,
+                "AUX": 1,
+                "PROPN": -1,
+                "ADP": 1,
+                "NOUN": 1
+            }
+        }
+    },
+    {
+        "input_text": "<p> Rent By Owner was launched first in 2013 and has evolved as a business since then. It is part of the UpNext Group family of websites. UpNext Group helps travelers find the perfect place to stay, easily comparing rentals, condos, hotels, RVs, boats, activities, and resorts across an ever-growing network of niche travel brands and websites. Rent By Owner operates in multiple countries and languages.</p>",
+        "translations": {
+            "to_spanish": "<p> Rent By Owner fue lanzado por primera vez en 2013 y ha evolucionado como negocio desde entonces. Es parte de la familia de sitios web de UpNext Group. UpNext Group ayuda a los viajeros a encontrar el lugar perfecto para hospedarse, comparando fácilmente alquileres, condominios, hoteles, casas rodantes, botes, actividades y resorts a través de una red en constante crecimiento de marcas y sitios web de viajes de nicho. Rent By Owner opera en múltiples países y lenguajes.</p>",
+            "to_english": "<p> Rent By Owner was first launched in 2013 and has evolved as a business since then. It is part of the UpNext Group family of websites. UpNext Group helps travelers find the perfect place to stay, easily comparing rentals, condos, hotels, RVs, boats, activities, and resorts across a continually growing network of brands and niche travel websites. Rent By Owner operates in multiple countries and languages.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 2.975468873977661,
+            "to_english": 2.137413263320923
+        },
+        "bleu_score": 0.8225853083519791,
+        "word_count": {
+            "source_english": 66,
+            "processed_english": 67
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "X": 4,
+                "NOUN": 20,
+                "ADP": 9,
+                "PROPN": 8,
+                "AUX": 3,
+                "VERB": 8,
+                "ADV": 4,
+                "NUM": 1,
+                "CCONJ": 4,
+                "DET": 4,
+                "SCONJ": 1,
+                "PUNCT": 11,
+                "PRON": 1,
+                "ADJ": 2,
+                "PART": 1
+            },
+            "target_pos": {
+                "NOUN": 24,
+                "CCONJ": 5,
+                "NUM": 2,
+                "PROPN": 11,
+                "AUX": 3,
+                "VERB": 6,
+                "ADP": 16,
+                "ADJ": 8,
+                "SCONJ": 1,
+                "ADV": 2,
+                "PUNCT": 9,
+                "DET": 4
+            },
+            "differences": {
+                "X": 4,
+                "NOUN": -4,
+                "ADP": -7,
+                "PROPN": -3,
+                "VERB": 2,
+                "ADV": 2,
+                "NUM": -1,
+                "CCONJ": -1,
+                "PUNCT": 2,
+                "PRON": 1,
+                "ADJ": -6,
+                "PART": 1
+            }
+        }
+    },
+    {
+        "input_text": "<p> Rent By Owner currently lists properties from our partners and a select network of online travel sellers. We are introducing functionality that will allow direct listings via select channel managers, bringing even more properties onto our network. To learn more about listing with us on Rent By Owner and the complete UpNext Group network, please click here to learn more about <a class=\"static-page-link\" target=\"_blank\" href=\"https://manage.rentbyowner.com\">Adding a Listing</a>. We will be updating this page as we start accepting more direct listings.</p>",
+        "translations": {
+            "to_spanish": "<p> Rent By Owner actualmente enumera propiedades de nuestros socios y una selecta red de vendedores de viajes en línea. Estamos introduciendo funcionalidad que permitirá listados directos a través de selectos gestores de canales, trayendo aún más propiedades a nuestra red. Para aprender más sobre cómo listar con nosotros en Rent By Owner y la completa red del Grupo UpNext, por favor haga clic aquí para aprender más sobre <a class=\"static-page-link\" target=\"_blank\" href=\"https://manage.rentbyowner.com\">Adding a Listing</a>. Estaremos actualizando esta página a medida que comencemos a aceptar más listados directos.</p>",
+            "to_english": "<p> Rent By Owner™ currently lists properties from our partners and a select network of online travel sellers. We are introducing functionality that will allow direct listings through select channel managers, bringing even more properties to our network. To learn more about how to list with us on Rent By Owner and the complete UpNext Group network, please click here to learn more about <a class=\"static-page-link\" target=\"_blank\" href=\"https://manage.rentbyowner.com\">Adding a Listing</a>. We will be updating this page as we begin accepting more direct listings.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 3.7129125595092773,
+            "to_english": 2.751215934753418
+        },
+        "bleu_score": 0.8180185690872802,
+        "word_count": {
+            "source_english": 81,
+            "processed_english": 83
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "X": 6,
+                "NOUN": 17,
+                "ADP": 10,
+                "PROPN": 7,
+                "ADV": 4,
+                "VERB": 12,
+                "PRON": 7,
+                "CCONJ": 2,
+                "DET": 5,
+                "ADJ": 10,
+                "PUNCT": 9,
+                "AUX": 4,
+                "PART": 2,
+                "INTJ": 1,
+                "SCONJ": 1
+            },
+            "target_pos": {
+                "NOUN": 23,
+                "CCONJ": 3,
+                "NUM": 2,
+                "PROPN": 12,
+                "ADV": 7,
+                "ADJ": 5,
+                "ADP": 20,
+                "DET": 5,
+                "PUNCT": 7,
+                "AUX": 2,
+                "VERB": 10,
+                "PRON": 3,
+                "SCONJ": 1
+            },
+            "differences": {
+                "X": 6,
+                "NOUN": -6,
+                "ADP": -10,
+                "PROPN": -5,
+                "ADV": -3,
+                "VERB": 2,
+                "PRON": 4,
+                "CCONJ": -1,
+                "ADJ": 5,
+                "PUNCT": 2,
+                "AUX": 2,
+                "PART": 2,
+                "INTJ": 1
+            }
+        }
+    },
+    {
+        "input_text": "<p> Rent By Owner is an operating brand of Canadian-based <a class=\"static-page-link\" href=\"https://www.upnextgroup.com\" target=\"_blank\" rel=\"noopener noreferrer\">UpNext Group</a>. Since formation, we have helped connect millions of travelers to vacation rentals, condos, cottages, cabins and RBO homes around the world. Rent By Owner lists properties provided by our partners (or direct from owners) and we refer traffic to their websites. At this time, we do not provide direct booking capabilities on our website, but rather elect to refer the traveler back to our partner to complete the trusted transaction. We want to make it easier for travelers to find the perfect place to stay, compare prices across websites, and help create a lasting travel memory.</p>exit",
+        "translations": {
+            "to_spanish": "<p> Rent By Owner es una marca operativa de <a class=\"static-page-link\" href=\"https://www.upnextgroup.com\" target=\"_blank\" rel=\"noopener noreferrer\">UpNext Group</a> con sede en Canadá. Desde su creación, hemos ayudado a conectar a millones de viajeros con alquileres vacacionales, condominios, cabañas, cabañas y hogares RBO en todo el mundo. Rent By Owner enumera propiedades proporcionadas por nuestros socios (o directamente de los propietarios) y derivamos tráfico a sus sitios web. En este momento, no ofrecemos capacidades de reserva directa en nuestro sitio web, sino que optamos por derivar al viajero de regreso a nuestro socio para completar la transacción confiable. Queremos hacerlo más fácil para que los viajeros encuentren el lugar perfecto para quedarse, comparar precios entre sitios web y ayudar a crear un recuerdo de viaje duradero.</p>",
+            "to_english": "<p> Rent By Owner™ is an operating brand of <a class=\"static-page-link\" href=\"https://www.upnextgroup.com\" target=\"_blank\" rel=\"noopener noreferrer\">UpNext Group</a> based in Canada. Since our inception, we have helped connect millions of travelers with vacation rentals, condos, cabins, chalets, and RBO homes worldwide. Rent by Owner lists properties supplied by our partners (or directly from owners) and drives traffic to their websites. At this time, we do not offer direct booking capabilities on our website, but instead opt to drive the traveler back to our partner to complete the trusted transaction. We want to make it easier for travelers to find the perfect place to stay, compare prices between websites, and help create a lasting travel memory.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 5.539200305938721,
+            "to_english": 9.213273048400879
+        },
+        "bleu_score": 0.6144336056249539,
+        "word_count": {
+            "source_english": 113,
+            "processed_english": 113
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "X": 6,
+                "NOUN": 35,
+                "ADP": 13,
+                "PROPN": 9,
+                "AUX": 3,
+                "DET": 8,
+                "VERB": 19,
+                "PUNCT": 20,
+                "ADJ": 5,
+                "SCONJ": 2,
+                "PRON": 9,
+                "CCONJ": 5,
+                "PART": 6,
+                "ADV": 2
+            },
+            "target_pos": {
+                "NOUN": 33,
+                "CCONJ": 6,
+                "NUM": 2,
+                "PROPN": 14,
+                "AUX": 2,
+                "DET": 14,
+                "ADJ": 11,
+                "ADP": 27,
+                "PUNCT": 16,
+                "VERB": 14,
+                "ADV": 3,
+                "SCONJ": 2
+            },
+            "differences": {
+                "X": 6,
+                "NOUN": 2,
+                "ADP": -14,
+                "PROPN": -5,
+                "AUX": 1,
+                "DET": -6,
+                "VERB": 5,
+                "PUNCT": 4,
+                "ADJ": -6,
+                "PRON": 9,
+                "CCONJ": -1,
+                "PART": 6,
+                "ADV": -1
+            }
+        }
+    },
+    {
+        "input_text": "Can I list directly on Rent By Owner?",
+        "translations": {
+            "to_spanish": "¿Puedo listar directamente en Rent By Owner?",
+            "to_english": "Can I list directly on Rent By Owner?"
+        },
+        "time_taken": {
+            "to_spanish": 0.5901453495025635,
+            "to_english": 0.5743434429168701
+        },
+        "bleu_score": 1.0,
+        "word_count": {
+            "source_english": 8,
+            "processed_english": 8
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "AUX": 1,
+                "PRON": 1,
+                "VERB": 1,
+                "ADV": 1,
+                "ADP": 2,
+                "PROPN": 2,
+                "PUNCT": 1
+            },
+            "target_pos": {
+                "PUNCT": 2,
+                "AUX": 1,
+                "VERB": 1,
+                "ADV": 1,
+                "ADP": 1,
+                "PROPN": 3
+            },
+            "differences": {
+                "PRON": 1,
+                "ADP": 1,
+                "PROPN": -1,
+                "PUNCT": -1
+            }
+        }
+    },
+    {
+        "input_text": "<p> The listings on our website are provided to us by our partners. If you are listed with one of our partners, you may see your property on our site which provides additional exposure for your property. There is no cost at present to list on Rent By Owner.</p>",
+        "translations": {
+            "to_spanish": "<p> Los listados en nuestro sitio web nos son proporcionados por nuestros socios. Si está listado con uno de nuestros socios, es posible que vea su propiedad en nuestro sitio, lo cual proporciona una exposición adicional para su propiedad. Actualmente no hay ningún costo para listar en Rent By Owner.</p>",
+            "to_english": "<p> The listings on our website are provided to us by our partners. If you are listed with one of our partners, it is possible that you will see your property on our site, which provides additional exposure for your property. Currently there is no cost to list on Rent By Owner.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 3.5196900367736816,
+            "to_english": 2.9801368713378906
+        },
+        "bleu_score": 0.6983001897564859,
+        "word_count": {
+            "source_english": 49,
+            "processed_english": 52
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "X": 4,
+                "DET": 2,
+                "NOUN": 9,
+                "ADP": 10,
+                "PRON": 11,
+                "AUX": 3,
+                "VERB": 6,
+                "PUNCT": 3,
+                "SCONJ": 1,
+                "NUM": 1,
+                "ADJ": 2,
+                "PART": 1,
+                "PROPN": 2
+            },
+            "target_pos": {
+                "NOUN": 10,
+                "CCONJ": 1,
+                "NUM": 1,
+                "DET": 9,
+                "ADP": 8,
+                "ADJ": 5,
+                "PRON": 4,
+                "AUX": 4,
+                "VERB": 4,
+                "PUNCT": 4,
+                "SCONJ": 2,
+                "ADV": 2,
+                "PROPN": 3
+            },
+            "differences": {
+                "X": 4,
+                "DET": -7,
+                "NOUN": -1,
+                "ADP": 2,
+                "PRON": 7,
+                "AUX": -1,
+                "VERB": 2,
+                "PUNCT": -1,
+                "SCONJ": -1,
+                "ADJ": -3,
+                "PART": 1,
+                "PROPN": -1
+            }
+        }
+    },
+    {
+        "input_text": "<p> Rent By Owner is an operating brand of Canadian-based <a class=\"static-page-link\" href=\"https://www.upnextgroup.com\" target=\"_blank\" rel=\"noopener noreferrer\">UpNext Group</a>. Since formation, we have helped connect millions of travelers to vacation rentals, condos, cottages, cabins and RBO homes around the world. Rent By Owner lists properties provided by our partners (or direct from owners) and we refer traffic to their websites. At this time, we do not provide direct booking capabilities on our website, but rather elect to refer the traveler back to our partner to complete the trusted transaction. We want to make it easier for travelers to find the perfect place to stay, compare prices across websites, and help create a lasting travel memory.</pexit",
+        "translations": {
+            "to_spanish": "<p> Rent By Owner es una marca operativa de <a class=\"static-page-link\" href=\"https://www.upnextgroup.com\" target=\"_blank\" rel=\"noopener noreferrer\">UpNext Group</a> con sede en Canadá. Desde su creación, hemos ayudado a conectar a millones de viajeros con alquileres vacacionales, condominios, cabañas, cabañas y hogares RBO en todo el mundo. Rent By Owner enumera propiedades proporcionadas por nuestros socios (o directamente de los propietarios) y derivamos tráfico a sus sitios web. En este momento, no ofrecemos capacidades de reserva directa en nuestro sitio web, sino que optamos por derivar al viajero de regreso a nuestro socio para completar la transacción confiable. Queremos hacerlo más fácil para que los viajeros encuentren el lugar perfecto para quedarse, comparar precios entre sitios web y ayudar a crear un recuerdo de viaje duradero.</p>",
+            "to_english": "<p> Rent By Owner™ is an operative brand of <a class=\"static-page-link\" href=\"https://www.upnextgroup.com\" target=\"_blank\" rel=\"noopener noreferrer\">UpNext Group</a> based in Canada. Since our inception, we have helped connect millions of travelers with vacation rentals, condos, cabins, chalets, and RBO homes worldwide. Rent by Owner lists properties provided by our partners (or directly from owners) and drives traffic to their websites. At this time, we do not offer direct booking capabilities on our website, but instead opt to drive the traveler back to our partner to complete the trusted transaction. We want to make it easier for travelers to find the perfect place to stay, compare prices between websites, and help create a lasting travel memory.</p>"
+        },
+        "time_taken": {
+            "to_spanish": 5.137539625167847,
+            "to_english": 3.7240419387817383
+        },
+        "bleu_score": 0.6204878697385253,
+        "word_count": {
+            "source_english": 113,
+            "processed_english": 113
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "X": 5,
+                "NOUN": 35,
+                "ADP": 13,
+                "PROPN": 8,
+                "AUX": 3,
+                "DET": 8,
+                "VERB": 18,
+                "PUNCT": 20,
+                "ADJ": 6,
+                "SCONJ": 2,
+                "PRON": 9,
+                "CCONJ": 5,
+                "PART": 6,
+                "ADV": 2
+            },
+            "target_pos": {
+                "NOUN": 33,
+                "CCONJ": 6,
+                "NUM": 2,
+                "PROPN": 14,
+                "AUX": 2,
+                "DET": 14,
+                "ADJ": 11,
+                "ADP": 27,
+                "PUNCT": 16,
+                "VERB": 14,
+                "ADV": 3,
+                "SCONJ": 2
+            },
+            "differences": {
+                "X": 5,
+                "NOUN": 2,
+                "ADP": -14,
+                "PROPN": -6,
+                "AUX": 1,
+                "DET": -6,
+                "VERB": 4,
+                "PUNCT": 4,
+                "ADJ": -5,
+                "PRON": 9,
+                "CCONJ": -1,
+                "PART": 6,
+                "ADV": -1
+            }
+        }
+    },
+    {
+        "input_text": "",
+        "translations": {
+            "to_spanish": "Sure, please provide the sentence you'd like me to translate.\n\n**Example:**\n\nInput: I am going to the <a href=\"store.html\" class=\"link\">store</a> to buy some <i class=\"item\">apples</i>.\n\nOutput: Voy a la <a href=\"store.html\" class=\"link\">tienda</a> a comprar algunas <i class=\"item\">manzanas</i>.\n\nPlease provide the English sentence you would like translated to Spanish.",
+            "to_english": "Input: You can save money by using our <a href=\"https://www.rentbyowner.com\" class=\"rent\">Rent By Owner™</a> platform to book a <i class=\"stay\">place to stay</i> for your next <b class=\"vacation\">vacation</b>.\n\nYou can save money by using our <a href=\"https://www.rentbyowner.com\" class=\"rent\">Rent By Owner™</a> platform to book a <i class=\"stay\">place to stay</i> for your next <b class=\"vacation\">vacation</b>."
+        },
+        "time_taken": {
+            "to_spanish": 2.4298901557922363,
+            "to_english": 3.326366901397705
+        },
+        "bleu_score": 0,
+        "word_count": {
+            "source_english": 0,
+            "processed_english": 51
+        },
+        "pos_analysis": {
+            "source_pos": {},
+            "target_pos": {
+                "PROPN": 30,
+                "PUNCT": 10,
+                "VERB": 5,
+                "PRON": 3,
+                "NOUN": 7,
+                "SPACE": 4,
+                "SYM": 1,
+                "ADJ": 3,
+                "CCONJ": 3,
+                "ADP": 4,
+                "AUX": 1,
+                "DET": 2
+            },
+            "differences": {}
+        }
+    },
+    {
+        "input_text": "{{template \"sites/rentbyowner.com/layouts/main.tpl\" .}}\n{{template \"common/details/published_details.tpl\" .}}\n\n{{define  \"site_css_vars\"}}\n    <style>\n        :root {\n            /* Site 'Details' css image variable start*/\n            --site-common-details-bottom-links-bullet: url({{.staticFileUrl}}/static/images/sites/rentbyowner.com/check.svg);\n        }\n    </style>\n{{end}}\n\n{{define \"site_css\"}}\n    <link rel=\"stylesheet\" type=\"text/css\"\n          href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/variables.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\"\n          href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/global.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\"\n          href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/calendar.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/tiles.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\"\n          href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/pages/details.css\"/>\n{{end}}\n\n{{define \"site_preload\"}}\n    <link rel=\"preload\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/variables.css\"\n          as=\"style\"/>\n    <link rel=\"preload\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/global.css\"\n          as=\"style\"/>\n    <link rel=\"preload\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/calendar.css\"\n          as=\"style\"/>\n    <link rel=\"preload\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/tiles.css\"\n          as=\"style\"/>\n    <link rel=\"preload\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/pages/details.css\"\n          as=\"style\"/>\n{{end}}\n\n{{define \"site_details_popup_header\"}}\n    <img class=\"max-w-full nav-row-logo\" loading=\"lazy\"\n         src=\"{{.staticFileUrl}}/static/images/sites/rentbyowner.com/header_logo.svg\" alt=\"{{i18n .Lang \"brand\"}}\"\n         width=\"182\"\n         height=\"26\">\n{{end}}\n\n{{define \"details_breadcrumb\"}}\n    {{template \"common/details/partials/details_breadcrumb.tpl\" .}}\n{{end}}\n\n{{define \"map_area_description\"}}\n    {{template \"common/details/partials/details_area_description_map.tpl\" .}}\n{{end}}\n\n{{define \"seo_room_arragment_faq\"}}\n    {{template \"common/details/partials/details_seo_room_arragment_faq.tpl\" .}}\n{{end}}\n\n{{define \"map\"}}\n    {{template \"common/details/partials/details_map.tpl\" .}}\n{{end}}\n\n{{define \"details_faq\"}}\n    {{template \"common/details/partials/faq.tpl\" .}}\n{{end}}\n\n{{define \"details_mobile_review\"}}\n    {{template \"common/details/partials/details_mobile_reviews.tpl\" .}}\n{{end}}\n\n<!-- Bedroom footer content start -->\n{{define \"site_bedroom_footer_content\"}}\n    <div class=\"bedroom-footer-content\">\n        <div class=\"bedroom-footer text-white\" id=\"js-seo-block\">\n            <div class=\"max-container\">\n                <div class=\"container-fluid\">\n                    <h3 class=\"bedroom-footer-title font-20 no-margin pb-16 underlined-title\">\n                        Why is Rent By Owner {{.LocationName}} Your Choice for Vacation Rentals\n                    </h3>\n                    <div class=\"color-accent\">\n                        <p>Find your dream vacation rental on Rent By Owner, where\n                            adventure meets comfort in every corner. RentByOwner features a broad mix of accommodations,\n                            from charming country cottages and chic city apartments to tranquil beachfront villas and\n                            cozy mountain cabins. Whether you're yearning for a delightful bungalow by the bay, a grand\n                            estate over the dock, or a snug lodge in a quaint village, we've got the perfect spot for\n                            you.</p>\n                        <div class=\"{{if eq .UserInfo.Platform \"mobile\"}}hidden{{else}}visible{{end}}\" id=\"js-seo-text-section\">\n                            <p>Prepare to unleash your inner explorer with our unique lodgings, including floating\n                                houses, whimsical treehouses, and picturesque farmhouses, or stick to the classics with\n                                duplexes, flats, and guesthouses. Choose the simplicity of a studio or the luxury of a\n                                suite. For outdoor enthusiasts, we offer tents in hidden campsites, RVs, mountain\n                                cabins, boat rentals, chalets in snowy havens, and caravans in lush gardens. Rent By\n                                Owner truly has something for everyone.</p>\n                            <p>Every holiday rental, from a humble hut to a lavish resort, guarantees a memorable stay\n                                with cozy beds, functional kitchens, and welcoming living areas. Ideal for families,\n                                couples, or solo adventurers, our rentals are more than just a place to sleep—they're\n                                your home away from home. Book your next vacation with us and embark on a unique retreat\n                                crafted for relaxation and adventure. We also offer annexes for added privacy, designer\n                                lofts for a modern touch, and motels for quick stays. Explore beachside bungalows,\n                                countryside ranches, and urban condos. Find your perfect getaway, whether it’s a quiet\n                                den in the forest or a bustling inn by the island. At RentByOwner, our properties\n                                include everything from houseboats and barns to court-style quarters and garden\n                                retreats.</p>\n                            <p>To make your booking experience even more convenient, we help you compare prices and\n                                inventory so you can find and book your vacation rental on popular platforms like\n                                Airbnb, Expedia, Vrbo (previously HomeAway), TripAdvisor (FlipKey), Booking.com, and\n                                HomeToGo. We work with these trusted sites to offer you a seamless booking process,\n                                ensuring that your perfect vacation rental is just a few clicks away.</p>\n                        </div>\n                    </div>\n                    <div class=\"read-more-less {{if eq .UserInfo.Platform \"mobile\"}}visible{{else}}hidden{{end}}\">\n                        <div class=\"read-more cursor-pointer\" id=\"js-seo-read-more\">\n                            <span class=\"text-white\">{{i18n .Lang \"__show_more\"}}</span>\n                            <svg class=\"icon text-white\">\n                                <use xlink:href=\"#chevron-down-solid\"></use>\n                            </svg>\n                        </div>\n                        <div class=\"read-less read-more-container cursor-pointer hidden\" id=\"js-seo-read-less\">\n                            <span class=\"text-white\">{{i18n .Lang \"show_less\"}}</span>\n                            <svg class=\"icon text-white\">\n                                <use xlink:href=\"#chevron-down-solid\"></use>\n                            </svg>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n{{end}}\n<!-- Bedroom footer content start -->\n",
+        "translations": {
+            "to_spanish": "{{template \"sites/rentbyowner.com/layouts/main.tpl\" .}}\n{{template \"common/details/published_details.tpl\" .}}\n\n{{define  \"site_css_vars\"}}\n    <style>\n        :root {\n            /* Site 'Details' css image variable start*/\n            --site-common-details-bottom-links-bullet: url({{.staticFileUrl}}/static/images/sites/rentbyowner.com/check.svg);\n        }\n    </style>\n{{end}}\n\n{{define \"site_css\"}}\n    <link rel=\"stylesheet\" type=\"text/css\"\n          href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/variables.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\"\n          href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/global.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\"\n          href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/calendar.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/tiles.css\"/>\n    <link rel=\"stylesheet\" type=\"text/css\"\n          href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/pages/details.css\"/>\n{{end}}\n\n{{define \"site_preload\"}}\n    <link rel=\"preload\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/variables.css\"\n          as=\"style\"/>\n    <link rel=\"preload\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/global.css\"\n          as=\"style\"/>\n    <link rel=\"preload\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/calendar.css\"\n          as=\"style\"/>\n    <link rel=\"preload\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/common/tiles.css\"\n          as=\"style\"/>\n    <link rel=\"preload\" type=\"text/css\" href=\"{{.staticFileUrl}}/static/css/sites/rentbyowner.com/pages/details.css\"\n          as=\"style\"/>\n{{end}}\n\n{{define \"site_details_popup_header\"}}\n    <img class=\"max-w-full nav-row-logo\" loading=\"lazy\"\n         src=\"{{.staticFileUrl}}/static/images/sites/rentbyowner.com/header_logo.svg\" alt=\"{{i18n .Lang \"brand\"}}\"\n         width=\"182\"\n         height=\"26\">\n{{end}}\n\n{{define \"details_breadcrumb\"}}\n    {{template \"common/details/partials/details_breadcrumb.tpl\" .}}\n{{end}}\n\n{{define \"map_area_description\"}}\n    {{template \"common/details/partials/details_area_description_map.tpl\" .}}\n{{end}}\n\n{{define \"seo_room_arragment_faq\"}}\n    {{template \"common/details/partials/details_seo_room_arragment_faq.tpl\" .}}\n{{end}}\n\n{{define \"map\"}}\n    {{template \"common/details/partials/details_map.tpl\" .}}\n{{end}}\n\n{{define \"details_faq\"}}\n    {{template \"common/details/partials/faq.tpl\" .}}\n{{end}}\n\n{{define \"details_mobile_review\"}}\n    {{template \"common/details/partials/details_mobile_reviews.tpl\" .}}\n{{end}}\n\n<!-- Bedroom footer content start -->\n{{define \"site_bedroom_footer_content\"}}\n    <div class=\"bedroom-footer-content\">\n        <div class=\"bedroom-footer text-white\" id=\"js-seo-block\">\n            <div class=\"max-container\">\n                <div class=\"container-fluid\">\n                    <h3 class=\"bedroom-footer-title font-20 no-margin pb-16 underlined-title\">\n                        ¿Por qué Rent By Owner {{.LocationName}} es tu elección para alquileres vacacionales?\n                    </h3>\n                    <div class=\"color-accent\">\n                        <p>Encuentra tu alquiler vacacional soñado en Rent By Owner, donde\n                            la aventura se encuentra con la comodidad en cada esquina. RentByOwner ofrece una amplia mezcla de alojamientos,\n                            desde acogedoras cabañas rurales y modernos apartamentos urbanos hasta tranquilas villas frente a la playa y\n                            cabañas de montaña. Ya sea que anheles un bungalow encantador junto a la bahía, una gran propiedad sobre el muelle o un alojamiento acogedor en un pintoresco pueblo, tenemos el lugar perfecto para\n                            ti.</p>\n                        <div class=\"{{if eq .UserInfo.Platform \"mobile\"}}hidden{{else}}visible{{end}}\" id=\"js-seo-text-section\">\n                            <p>Prepárate para liberar tu explorador interior con nuestros alojamientos únicos, incluidas casas flotantes, casas en los árboles y casas de campo pintorescas, o mantente clásico con\n                                dúplex, apartamentos y casas de huéspedes. Elige la sencillez de un estudio o el lujo de una suite. Para los entusiastas del aire libre, ofrecemos tiendas de campaña en campamentos ocultos, RVs, cabañas de montaña, alquiler de botes, cabañas en refugios nevados y caravanas en jardines frondosos. Rent By\n                                Owner realmente tiene algo para todos.</p>\n                            <p>Cada alquiler vacacional, desde una humilde cabaña hasta un resort lujoso, garantiza una estancia memorable con camas acogedoras, cocinas funcionales y áreas de estar acogedoras. Ideal para familias,\n                                parejas o aventureros solitarios, nuestros alquileres son más que solo un lugar para dormir; son\n                                tu hogar lejos de casa. Reserva tus próximas vacaciones con nosotros y embarcate en una retirada única diseñada para la relajación y la aventura. También ofrecemos anexos para mayor privacidad, lofts de diseño para un toque moderno y moteles para estancias rápidas. Explora bungalows junto a la playa,\n                                ranchos en el campo y condominios urbanos. Encuentra tu escapada perfecta, ya sea un refugio tranquilo en el bosque o una posada bulliciosa junto a la isla. En RentByOwner, nuestras propiedades\n                                incluyen todo, desde houseboats y barns hasta cuartos tipo patio y retiros de jardín.</p>\n                            <p>Para hacer tu experiencia de reserva aún más conveniente, te ayudamos a comparar precios e\n                                inventario para que puedas encontrar y reservar tu alquiler vacacional en plataformas populares como\n                                Airbnb, Expedia, Vrbo (anteriormente HomeAway), TripAdvisor (FlipKey), Booking.com y\n                                HomeToGo. Trabajamos con estos sitios confiables para ofrecerte un proceso de reserva sin problemas,\n                                asegurando que tu alquiler vacacional perfecto esté a solo unos clics de distancia.</p>\n                        </div>\n                    </div>\n                    <div class=\"read-more-less {{if eq .UserInfo.Platform \"mobile\"}}visible{{else}}hidden{{end}}\">\n                        <div class=\"read-more cursor-pointer\" id=\"js-seo-read-more\">\n                            <span class=\"text-white\">{{i18n .Lang \"__show_more\"}}</span>\n                            <svg class=\"icon text-white\">\n                                <use xlink:href=\"#chevron-down-solid\"></use>\n                            </svg>\n                        </div>\n                        <div class=\"read-less read-more-container cursor-pointer hidden\" id=\"js-seo-read-less\">\n                            <span class=\"text-white\">{{i18n .Lang \"show_less\"}}</span>\n                            <svg class=\"icon text-white\">\n                                <use xlink:href=\"#chevron-down-solid\"></use>\n                            </svg>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n{{end}}",
+            "to_english": "<!-- Bedroom footer content start -->\n{{define \"site_bedroom_footer_content\"}}\n    <div class=\"bedroom-footer-content\">\n        <div class=\"bedroom-footer text-white\" id=\"js-seo-block\">\n            <div class=\"max-container\">\n                <div class=\"container-fluid\">\n                    <h3 class=\"bedroom-footer-title font-20 no-margin pb-16 underlined-title\">\n                        Why Rent By Owner™ {{.LocationName}} is your choice for vacation rentals?\n                    </h3>\n                    <div class=\"color-accent\">\n                        <p>Find your dream vacation rental on Rent By Owner, where\n                            adventure meets comfort at every corner. RentByOwner offers a wide mix of accommodations,\n                            from cozy rural cabins and modern urban apartments to tranquil beachfront villas and\n                            mountain cabins. Whether you long for a charming bungalow by the bay, a grand property over the pier or a cozy accommodation in a picturesque village, we have the perfect place for\n                            you.</p>\n                        <div class=\"{{if eq .UserInfo.Platform \"mobile\"}}hidden{{else}}visible{{end}}\" id=\"js-seo-text-section\">\n                            <p>Get ready to unleash your inner explorer with our unique accommodations, including floating homes, treehouses and picturesque cottages, or keep it classic with\n                                duplexes, apartments and guest houses. Choose the simplicity of a studio or the luxury of a suite. For outdoor enthusiasts, we offer camping tents in hidden campgrounds, RVs, mountain cabins, boat rentals, snow lodges and caravans in lush gardens. Rent By\n                                Owner truly has something for everyone.</p>\n                            <p>Each vacation rental, from a humble cabin to a luxurious resort, guarantees a memorable stay with cozy beds, functional kitchens and inviting living areas. Ideal for families,\n                                couples or solo adventurers, our rentals are more than just a place to sleep; they are\n                                your home away from home. Book your next vacation with us and embark on a unique retreat designed for relaxation and adventure. We also offer annexes for greater privacy, designer lofts for a modern touch and motels for quick stays. Explore beachside bungalows,\n                                country ranchos and urban condominiums. Find your perfect getaway, whether it's a tranquil refuge in the woods or a bustling inn by the island. At RentByOwner, our properties\n                                include everything from houseboats and barns to courtyard rooms and garden retreats.</p>\n                            <p>To make your booking experience even more convenient, we help you compare prices and\n                                inventory so you can find and book your vacation rental on popular platforms like\n                                Airbnb, Expedia, Vrbo (formerly HomeAway), TripAdvisor (FlipKey), Booking.com and\n                                HomeToGo. We work with these trusted sites to offer you a seamless booking process,\n                                ensuring that your perfect vacation rental is just a few clicks away.</p>\n                        </div>\n                    </div>\n                    <div class=\"read-more-less {{if eq .UserInfo.Platform \"mobile\"}}visible{{else}}hidden{{end}}\">\n                        <div class=\"read-more cursor-pointer\" id=\"js-seo-read-more\">\n                            <span class=\"text-white\">{{i18n .Lang \"__show_more\"}}</span>\n                            <svg class=\"icon text-white\">\n                                <use xlink:href=\"#chevron-down-solid\"></use>\n                            </svg>\n                        </div>\n                        <div class=\"read-less read-more-container cursor-pointer hidden\" id=\"js-seo-read-less\">\n                            <span class=\"text-white\">{{i18n .Lang \"show_less\"}}</span>\n                            <svg class=\"icon text-white\">\n                                <use xlink:href=\"#chevron-down-solid\"></use>\n                            </svg>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n{{end}}"
+        },
+        "time_taken": {
+            "to_spanish": 43.11656308174133,
+            "to_english": 19.894256114959717
+        },
+        "bleu_score": 0.5116144825686136,
+        "word_count": {
+            "source_english": 547,
+            "processed_english": 418
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "PUNCT": 356,
+                "NOUN": 265,
+                "SYM": 93,
+                "X": 127,
+                "SPACE": 118,
+                "ADJ": 67,
+                "VERB": 53,
+                "PROPN": 113,
+                "PART": 6,
+                "NUM": 3,
+                "DET": 29,
+                "SCONJ": 7,
+                "AUX": 6,
+                "ADP": 47,
+                "PRON": 25,
+                "CCONJ": 20,
+                "ADV": 10
+            },
+            "target_pos": {
+                "NOUN": 279,
+                "PUNCT": 205,
+                "NUM": 58,
+                "PROPN": 258,
+                "SPACE": 107,
+                "VERB": 56,
+                "ADJ": 99,
+                "SYM": 2,
+                "AUX": 8,
+                "DET": 61,
+                "ADV": 12,
+                "ADP": 68,
+                "PRON": 9,
+                "CCONJ": 24,
+                "SCONJ": 5
+            },
+            "differences": {
+                "PUNCT": 151,
+                "NOUN": -14,
+                "SYM": 91,
+                "X": 127,
+                "SPACE": 11,
+                "ADJ": -32,
+                "VERB": -3,
+                "PROPN": -145,
+                "PART": 6,
+                "NUM": -55,
+                "DET": -32,
+                "SCONJ": 2,
+                "AUX": -2,
+                "ADP": -21,
+                "PRON": 16,
+                "CCONJ": -4,
+                "ADV": -2
+            }
+        }
+    },
+    {
+        "input_text": "<p>\n    Searching for a cheap rental in or near {{.LocationName}}? We have {{if gt .Count 1}}more than {{.Count}}{{else}}plenty of{{end}} cheap homes,\n    villas, cottages, and condos that you can rent in {{.LocationName}}.\n</p>\n<p>\n    Rent By Owner has a variety of cheap rentals, including vacation homes, apartments, chalets,\n    cheap penthouses, lake homes, beachfront resorts, villas, and many luxury lifestyle options,\n    many in {{.LocationName}}. Whether you are traveling with families or groups, hosting a get-together,\n    or a cocktail party, we have the perfect place for your travel plans. Our rental properties in\n    {{.LocationName}} are located in the top places and they come with luxury features throughout the\n    living areas, kitchens, and bedrooms, including private pools, hot tubs, home theatres, amazing\n    views, and plenty of space to relax.\n</p>\n",
+        "translations": {
+            "to_spanish": "<p>\n    ¿Buscas un alquiler económico en o cerca de {{.LocationName}}? Tenemos {{if gt .Count 1}}más de {{.Count}}{{else}}muchas{{end}} casas económicas,\n    villas, cabañas y condominios que puedes alquilar en {{.LocationName}}.\n</p>\n<p>\n    Rent By Owner tiene una variedad de alquileres económicos, incluidas casas vacacionales, apartamentos, chalets,\n    áticos económicos, casas en el lago, resorts frente a la playa, villas y muchas opciones de estilo de vida lujoso, muchos en {{.LocationName}}. Ya sea que viajes con familias o grupos, alojes una reunión o una fiesta de cócteles, tenemos el lugar perfecto para tus planes de viaje. Nuestras propiedades de alquiler en {{.LocationName}} se encuentran en los mejores lugares y cuentan con características de lujo en todas las áreas de estar, cocinas y dormitorios, incluidas piscinas privadas, jacuzzis, cines en casa, vistas increíbles y mucho espacio para relajarse.\n</p>",
+            "to_english": "<p>\n    Looking for affordable rentals in or near {{.LocationName}}? We have {{if gt .Count 1}}more than {{.Count}}{{else}}many{{end}} affordable houses,\n    villas, cabins, and condos that you can rent in {{.LocationName}}.\n</p>\n<p>\n    Rent By Owner has a variety of affordable rentals, including vacation homes, apartments, chalets,\n    affordable lofts, lake houses, beachfront resorts, villas, and many luxury lifestyle options, many in {{.LocationName}}. Whether you're traveling with families or groups, hosting a gathering or a cocktail party, we have the perfect place for your travel plans. Our rental properties in {{.LocationName}} are located in the best areas and feature luxury amenities throughout living areas, kitchens, and bedrooms, including private pools, jacuzzis, home theaters, incredible views, and plenty of space to relax.\n</p>"
+        },
+        "time_taken": {
+            "to_spanish": 6.708221435546875,
+            "to_english": 4.497769594192505
+        },
+        "bleu_score": 0.643276074829839,
+        "word_count": {
+            "source_english": 126,
+            "processed_english": 119
+        },
+        "pos_analysis": {
+            "source_pos": {
+                "X": 10,
+                "PUNCT": 54,
+                "SPACE": 13,
+                "VERB": 13,
+                "ADP": 13,
+                "DET": 7,
+                "ADJ": 13,
+                "NOUN": 43,
+                "CCONJ": 8,
+                "ADV": 1,
+                "NUM": 3,
+                "PRON": 8,
+                "SCONJ": 3,
+                "PROPN": 5,
+                "AUX": 3,
+                "PART": 1
+            },
+            "target_pos": {
+                "NOUN": 68,
+                "CCONJ": 10,
+                "NUM": 4,
+                "SPACE": 7,
+                "PUNCT": 28,
+                "PROPN": 7,
+                "DET": 14,
+                "ADJ": 14,
+                "ADP": 23,
+                "ADV": 2,
+                "VERB": 8,
+                "PRON": 5,
+                "AUX": 3,
+                "SCONJ": 1
+            },
+            "differences": {
+                "X": 10,
+                "PUNCT": 26,
+                "SPACE": 6,
+                "VERB": 5,
+                "ADP": -10,
+                "DET": -7,
+                "ADJ": -1,
+                "NOUN": -25,
+                "CCONJ": -2,
+                "ADV": -1,
+                "NUM": -1,
+                "PRON": 3,
+                "SCONJ": 2,
+                "PROPN": -2,
+                "PART": 1
+            }
+        }
+    },
+    {
+        "input_text": "<p>\n    Searching for a cheap rental in or near {{.LocationName}}? We have {{if gt .Count 1}}more than {{.Count}}{{else}}plenty of{{end}} cheap homes,\n    villas, cottages, and condos that you can rent in {{.LocationName}}.\n</p>\n<p>\n    Rent By Owner has a variety of cheap rentals, including vacation homes, apartments, chalets,\n    cheap penthouses, lake homes, beachfront resorts, villas, and many luxury lifestyle options,\n    many in {{.LocationName}}. Whether you are traveling with families or groups, hosting a get-together,\n    or a cocktail party, we have the perfect place for your travel plans. Our rental properties in\n    {{.LocationName}} are located in the top places and they come with luxury features throughout the\n    living areas, kitchens, and bedrooms, including private pools, hot tubs, home theatres, amazing\n    views, and plenty of space to relax.\n</p>\n",
+        "translations": {
+            "to_spanish": "<p>\n    ¿Buscas un alquiler económico en o cerca de {{.LocationName}}? Tenemos {{if gt .Count 1}}más de {{.Count}}{{else}}muchos{{end}} hogares,\n    villas, cabañas y condominios económicos que puedes alquilar en {{.LocationName}}.\n</p>\n<p>\n    Rent By Owner tiene una variedad de alquileres económicos, incluidas casas vacacionales, apartamentos, chalets,\n    áticos económicos, casas en el lago, resorts frente a la playa, villas y muchas opciones de estilo de vida lujosas,\n    muchas en {{.LocationName}}. Ya sea que viajes con familias o grupos, organizando una reunión o\n    una fiesta con cócteles, tenemos el lugar perfecto para tus planes de viaje. Nuestras propiedades de alquiler en\n    {{.LocationName}} se encuentran en los mejores lugares y cuentan con características de lujo en todas las\n    áreas de estar, cocinas y dormitorios, incluidas piscinas privadas, jacuzzis, cines en casa, vistas increíbles y\n    mucho espacio para relajarse.\n</p>"
+        },
+        "time_taken": {
+            "to_spanish": 7.810746431350708
+        },
+        "word_count": {
+            "source_english": 126
+        }
+    },
+    {
+        "input_text": "<p>\n    {{if gt .Count 1}}With more than {{.Count}}{{else}} Looking for a {{end}} pet-friendly rentals in or near {{.LocationName}}, Rent By Owner has a large\n    list of pet-friendly vacation homes, cabins, villas, cottages, and hotels available to compare.\n    For your next trip, you can bring your pet, no matter where you are visiting. RBO makes it easy\n    to discover, compare, and book your holiday homes without hassle. So, get ready to start making\n    your travel plans today! \n</p>\n<p>\n    Rent By Owner offers many dog-friendly holiday rentals in {{.LocationName}}, including plenty of\n    decent amenities like indoor or private pools, hot tubs, Wi-Fi, and several other pet-friendly\n    features. Browse the map to see if there are nearby dog parks.\n</p>\n<p>\n    Renting a pet-friendly accommodation in {{.LocationName}} gives you the opportunity to have holiday to\n    remember. Travel with your family, a large group, or even an extended group of friends. When\n    traveling nearby with your pet to {{.LocationName}}, book a pet-friendly rental that is spacious,\n    giving your four-legged friend enough room to walk or run freely. Some rentals may have special\n    dog beds, while others may have restrictions on the size or number of animals.\n</p>\n",
+        "translations": {
+            "to_spanish": "<p>\n    {{if gt .Count 1}}Con más de {{.Count}}{{else}} Buscando un {{end}} alquileres que aceptan mascotas en o cerca de {{.LocationName}}, Rent By Owner™ tiene una larga\n    lista de casas de vacaciones, cabañas, villas, cabañas y hoteles que aceptan mascotas disponibles para comparar.\n    Para su próximo viaje, puede llevar a su mascota, sin importar a dónde vaya. RBO facilita\n    descubrir, comparar y reservar sus casas de vacaciones sin complicaciones. ¡Así que prepárese para comenzar a hacer\n    sus planes de viaje hoy!\n</p>\n<p>\n    Rent By Owner ofrece muchos alquileres de vacaciones que admiten perros en {{.LocationName}}, incluidos muchos\n    buenas comodidades como piscinas interiores o privadas, bañeras de hidromasaje, Wi-Fi y varias otras\n    características que admiten mascotas. Buscar en el mapa para ver si hay parques para perros cercanos.\n</p>\n<p>\n    Alquilar un alojamiento que acepta mascotas en {{.LocationName}} le brinda la oportunidad de tener unas vacaciones para\n    recordar. Viaje con su familia, un grupo grande o incluso un grupo ampliado de amigos. Cuando\n    Viaje cerca con su mascota a {{.LocationName}}, reserve un alquiler que acepte mascotas y que sea espacioso,\n    dando a su amigo de cuatro patas suficiente espacio para caminar o correr libremente. Algunos alquileres pueden tener camas especiales para perros,\n    mientras que otros pueden tener restricciones sobre el tamaño o el número de animales.\n</p>"
+        },
+        "time_taken": {
+            "to_spanish": 12.093579053878784
+        },
+        "word_count": {
+            "source_english": 194
+        }
+    },
+    {
+        "input_text": "<p>\n    Searching for a cheap rental in or near {{.LocationName}}? We have {{if gt .Count 1}}more than {{.Count}}{{else}}plenty of{{end}} cheap homes,\n    villas, cottages, and condos that you can rent in {{.LocationName}}.\n</p>\n<p>\n    Rent By Owner has a variety of cheap rentals, including vacation homes, apartments, chalets,\n    cheap penthouses, lake homes, beachfront resorts, villas, and many luxury lifestyle options,\n    many in {{.LocationName}}. Whether you are traveling with families or groups, hosting a get-together,\n    or a cocktail party, we have the perfect place for your travel plans. Our rental properties in\n    {{.LocationName}} are located in the top places and they come with luxury features throughout the\n    living areas, kitchens, and bedrooms, including private pools, hot tubs, home theatres, amazing\n    views, and plenty of space to relax.\n</p>\n",
+        "translations": {
+            "to_spanish": "<p>\n    ¿Buscas un alquiler económico en o cerca de {{.LocationName}}? Tenemos {{if gt .Count 1}}más de {{.Count}}{{else}}muchas{{end}} casas económicas,\n    villas, cabañas y condominios que puedes alquilar en {{.LocationName}}.\n</p>\n<p>\n    Rent By Owner tiene una variedad de alquileres económicos, incluidas casas vacacionales, apartamentos, chalets,\n    áticos económicos, casas en el lago, resorts frente a la playa, villas y muchas opciones de estilo de vida lujosas,\n    muchas en {{.LocationName}}. Ya sea que viajes con familias o grupos, organizando una reunión o\n    una fiesta con cócteles, tenemos el lugar perfecto para tus planes de viaje. Nuestras propiedades de alquiler en\n    {{.LocationName}} se encuentran en los mejores lugares y cuentan con características de lujo en todas las\n    áreas de estar, cocinas y dormitorios, incluidas piscinas privadas, jacuzzis, cines en casa, vistas increíbles y mucho espacio para relajarse.\n</p>"
+        },
+        "time_taken": {
+            "to_spanish": 6.026695489883423
+        },
+        "word_count": {
+            "source_english": 126
+        }
+    },
+    {
+        "input_text": "<p>\n    {{if gt .Count 1}}With more than {{.Count}}{{else}} Looking for a {{end}} pet-friendly rentals in or near {{.LocationName}}, Rent By Owner has a large\n    list of pet-friendly vacation homes, cabins, villas, cottages, and hotels available to compare.\n    For your next trip, you can bring your pet, no matter where you are visiting. RBO makes it easy\n    to discover, compare, and book your holiday homes without hassle. So, get ready to start making\n    your travel plans today! \n</p>\n<p>\n    Rent By Owner offers many dog-friendly holiday rentals in {{.LocationName}}, including plenty of\n    decent amenities like indoor or private pools, hot tubs, Wi-Fi, and several other pet-friendly\n    features. Browse the map to see if there are nearby dog parks.\n</p>\n<p>\n    Renting a pet-friendly accommodation in {{.LocationName}} gives you the opportunity to have holiday to\n    remember. Travel with your family, a large group, or even an extended group of friends. When\n    traveling nearby with your pet to {{.LocationName}}, book a pet-friendly rental that is spacious,\n    giving your four-legged friend enough room to walk or run freely. Some rentals may have special\n    dog beds, while others may have restrictions on the size or number of animals.\n</p>\n",
+        "translations": {
+            "to_spanish": "<p>\n    {{if gt .Count 1}}Con más de {{.Count}}{{else}} Buscando un {{end}} alquileres que aceptan mascotas en o cerca de {{.LocationName}}, Rent By Owner™ tiene una larga\n    lista de casas vacacionales, cabañas, villas, cabañas y hoteles que aceptan mascotas disponibles para comparar.\n    Para su próximo viaje, puede traer a su mascota, sin importar adónde vaya. RBO facilita\n    descubrir, comparar y reservar sus casas de vacaciones sin complicaciones. ¡Así que prepárese para comenzar a hacer\n    sus planes de viaje hoy mismo!\n</p>\n<p>\n    Rent By Owner ofrece muchos alquileres de vacaciones que admiten perros en {{.LocationName}}, incluidos muchos\n    buenas comodidades como piscinas interiores o privadas, bañeras de hidromasaje, Wi-Fi y varias otras\n    características que admiten mascotas. Busque en el mapa para ver si hay parques para perros cerca.\n</p>\n<p>\n    Alquilar un alojamiento que admite mascotas en {{.LocationName}} le brinda la oportunidad de tener unas vacaciones para\n    recordar. Viaje con su familia, un grupo grande o incluso un grupo ampliado de amigos. Cuando\n    Viaje cerca con su mascota a {{.LocationName}}, reserve un alquiler que acepte mascotas y que sea espacioso,\n    dándole a su amigo de cuatro patas suficiente espacio para caminar o correr libremente. Algunos alquileres pueden tener camas especiales para perros,\n    mientras que otros pueden tener restricciones sobre el tamaño o el número de animales.\n</p>"
+        },
+        "time_taken": {
+            "to_spanish": 9.149774551391602
+        },
+        "word_count": {
+            "source_english": 194
+        }
+    },
+    {
+        "input_text": "<p>\n    Planning a trip to {{.LocationName}}, {{.GeoInfo.CountryCode}} with a group? We have a selection of\n    vacation rentals for small or large groups, friends, or entire families. Whether you're looking\n    for luxury or budget-friendly holiday rentals, condos, villas, or cabins in {{.LocationName}}. Rent By\n    Owner features {{if gt .Count 0}}{{.Count}}{{end}} places to stay in {{.LocationName}} with the amenities that guests like, such\n    as private or indoor swimming pools, hot tubs, fitness center, large bedrooms, and more.\n</p>\n<p>\n    RBO welcomes large-sized groups planning to stay in {{.LocationName}}, whether it’s for business trips,\n    weddings, reunions, or multiple family getaways. Rent By Owner makes it an easy and hassle-free\n    booking for your next trip accommodation, giving you a memorable trip with your group.\n    {{if and (.StartAtPrice) (gt .StartAtPrice 0.0) (gt .Count 0)}}The average price per night for a group rental in {{.LocationName}} starts at <span class=\"js-sub-location-start-faq-price\">{{.UserCurrency.Symbol}}{{UserPrice .StartAtPrice .UserCurrency.Rate}}</span>.{{end}}\n    Houses and villas are the most popular options for staying in {{.LocationName}}.\n</p>\n<p>\n    Rent By Owner offers plenty of large group rentals homes available in {{.LocationName}}.\n    Whether you're needing accommodation for a large family or a large group event, we have many\n    holiday rentals that will meet your needs. Want to stay in or near {{.LocationName}}? We have many\n    family-friendly vacation homes available to make your next trip enjoyable & spectacular.\n    So, start searching RBO's large vacation rental inventory and find the perfect home for your group.\n</p>",
+        "translations": {
+            "to_spanish": "<p>\n    ¿Planeando un viaje a {{.LocationName}}, {{.GeoInfo.CountryCode}} con un grupo? Tenemos una selección de\n    alquileres vacacionales para grupos pequeños o grandes, amigos o familias enteras. Ya sea que esté buscando\n    alquileres de vacaciones de lujo o económicos, condominios, villas o cabañas en {{.LocationName}}. Rent By\n    Owner ofrece {{if gt .Count 0}}{{.Count}}{{end}} lugares para quedarse en {{.LocationName}} con las comodidades que les gustan a los huéspedes, como\n    piscinas privadas o cubiertas, jacuzzis, gimnasio, dormitorios grandes y más.\n</p>\n<p>\n    RBO da la bienvenida a grupos grandes que planean hospedarse en {{.LocationName}}, ya sea para viajes de negocios,\n    bodas, reuniones o múltiples escapadas familiares. Rent By Owner hace que sea una reserva fácil y sin complicaciones\n    para su próximo alojamiento de viaje, dándole un viaje memorable con su grupo.\n    {{if and (.StartAtPrice) (gt .StartAtPrice 0.0) (gt .Count 0)}}El precio promedio por noche para un alquiler grupal en {{.LocationName}} empieza en <span class=\"js-sub-location-start-faq-price\">{{.UserCurrency.Symbol}}{{UserPrice .StartAtPrice .UserCurrency.Rate}}</span>.{{end}}\n    Las casas y villas son las opciones más populares para alojarse en {{.LocationName}}.\n</p>\n<p>\n    Rent By Owner ofrece muchas casas de alquiler para grupos grandes disponibles en {{.LocationName}}.\n    Ya sea que necesite alojamiento para una familia grande o un evento para un grupo grande, tenemos muchos\n    alquileres de vacaciones que satisfarán sus necesidades. ¿Quiere alojarse en o cerca de {{.LocationName}}? Tenemos muchas\n    casas de vacaciones familiares disponibles para hacer que su próximo viaje sea agradable y espectacular.\n    Entonces, comience a buscar en el inventario de alquileres vacacionales grandes de RBO y encuentre el hogar perfecto para su grupo.\n</p>"
+        },
+        "time_taken": {
+            "to_spanish": 11.074387311935425
+        },
+        "word_count": {
+            "source_english": 234
+        }
+    },
+    {
+        "input_text": "<p>\n    Looking for a beach rental rent near {{.LocationName}}? Rent By Owner features {{if gt .Count 1}}more than {{.Count}}{{end}} beach\n    rentals that are perfect for your next beach holiday. Discover luxury beach rentals that are\n    within walking distance away from {{.LocationName}}. Several of these vacation rentals in {{.LocationName}}\n    are kid-friendly & family-friendly, and are near top local attraction spots, to give guests an\n    unforgettable travel experience. RBO’s rental listings come in all shapes and sizes for large\n    groups, friends, or couples, or wedding retreats in {{.LocationName}}.\n</p>\n<p>\n    Rent By Owner Offers  {{if gt .Count 1}}{{.Count}}{{end}} holiday homes and places to stay in {{.LocationName}}. The site provides\n    unique Airbnb, VRBO, RBO-style accommodations to fit your trip or get away with your friends and family.\n</p>\n<p>\n    RBO beachfront rentals give you the best travel experience that makes it easy to find and book\n    the best place to stay at the best destinations.\n</p>",
+        "translations": {
+            "to_spanish": "<p>\n    ¿Buscas un alquiler de playa cerca de {{.LocationName}}? Rent By Owner™ ofrece {{if gt .Count 1}}más de {{.Count}}{{end}} alquileres de playa\n    que son perfectos para tus próximas vacaciones en la playa. Descubre alquileres de playa de lujo que\n    se encuentran a poca distancia a pie de {{.LocationName}}. Varios de estos alquileres vacacionales en {{.LocationName}}\n    son aptos para niños y familias, y están cerca de los principales lugares de atracción locales, para darles a los huéspedes\n    una experiencia de viaje inolvidable. Los listados de alquiler de RBO vienen en todas las formas y tamaños para grandes\n    grupos, amigos, parejas o retiros de bodas en {{.LocationName}}.\n</p>\n<p>\n    Rent By Owner ofrece {{if gt .Count 1}}{{.Count}}{{end}} casas de vacaciones y lugares para quedarse en {{.LocationName}}. El sitio proporciona\n    alojamientos únicos tipo Airbnb, VRBO, RBO para adaptarse a tu viaje o escapada con tus amigos y familia.\n</p>\n<p>\n    Los alquileres en primera línea de playa de RBO te dan la mejor experiencia de viaje que facilita encontrar y reservar\n    el mejor lugar para quedarse en los mejores destinos.\n</p>"
+        },
+        "time_taken": {
+            "to_spanish": 7.6712682247161865
+        },
+        "word_count": {
+            "source_english": 153
+        }
+    }
+]
