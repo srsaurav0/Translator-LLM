@@ -9,27 +9,100 @@ from mistralai import Mistral
 # Set up Mistral API configuration
 API_KEY = "SOghG3UVHGRqvzN305UleP5xo19J6rDv"
 MODEL = "mistral-large-latest"
-OUTPUT_FILE = "MistralAI/mistral_spanish_rbo_test.json"
+OUTPUT_FILE = "MistralAI/RBO_Data/mistral_spanish.json"
 client = Mistral(api_key=API_KEY)
 
 # Load SpaCy models
 nlp_en = spacy.load("en_core_web_sm")
 nlp_es = spacy.load("es_core_news_sm")
 
+inputs = [
+"""<p>
+    Searching for a cheap rental in or near {{.LocationName}}? We have {{if gt .Count 1}}more than {{.Count}}{{else}}plenty of{{end}} cheap homes,
+    villas, cottages, and condos that you can rent in {{.LocationName}}.
+</p>
+<p>
+    Rent By Owner has a variety of cheap rentals, including vacation homes, apartments, chalets,
+    cheap penthouses, lake homes, beachfront resorts, villas, and many luxury lifestyle options,
+    many in {{.LocationName}}. Whether you are traveling with families or groups, hosting a get-together,
+    or a cocktail party, we have the perfect place for your travel plans. Our rental properties in
+    {{.LocationName}} are located in the top places and they come with luxury features throughout the
+    living areas, kitchens, and bedrooms, including private pools, hot tubs, home theatres, amazing
+    views, and plenty of space to relax.
+</p>
+""",
+"""<p>
+    {{if gt .Count 1}}With more than {{.Count}}{{else}} Looking for a {{end}} pet-friendly rentals in or near {{.LocationName}}, Rent By Owner has a large
+    list of pet-friendly vacation homes, cabins, villas, cottages, and hotels available to compare.
+    For your next trip, you can bring your pet, no matter where you are visiting. RBO makes it easy
+    to discover, compare, and book your holiday homes without hassle. So, get ready to start making
+    your travel plans today! 
+</p>
+<p>
+    Rent By Owner offers many dog-friendly holiday rentals in {{.LocationName}}, including plenty of
+    decent amenities like indoor or private pools, hot tubs, Wi-Fi, and several other pet-friendly
+    features. Browse the map to see if there are nearby dog parks.
+</p>
+<p>
+    Renting a pet-friendly accommodation in {{.LocationName}} gives you the opportunity to have holiday to
+    remember. Travel with your family, a large group, or even an extended group of friends. When
+    traveling nearby with your pet to {{.LocationName}}, book a pet-friendly rental that is spacious,
+    giving your four-legged friend enough room to walk or run freely. Some rentals may have special
+    dog beds, while others may have restrictions on the size or number of animals.
+</p>
+""",
+"""<p>
+    Planning a trip to {{.LocationName}}, {{.GeoInfo.CountryCode}} with a group? We have a selection of
+    vacation rentals for small or large groups, friends, or entire families. Whether you're looking
+    for luxury or budget-friendly holiday rentals, condos, villas, or cabins in {{.LocationName}}. Rent By
+    Owner features {{if gt .Count 0}}{{.Count}}{{end}} places to stay in {{.LocationName}} with the amenities that guests like, such
+    as private or indoor swimming pools, hot tubs, fitness center, large bedrooms, and more.
+</p>
+<p>
+    RBO welcomes large-sized groups planning to stay in {{.LocationName}}, whether it’s for business trips,
+    weddings, reunions, or multiple family getaways. Rent By Owner makes it an easy and hassle-free
+    booking for your next trip accommodation, giving you a memorable trip with your group.
+    {{if and (.StartAtPrice) (gt .StartAtPrice 0.0) (gt .Count 0)}}The average price per night for a group rental in {{.LocationName}} starts at <span class="js-sub-location-start-faq-price">{{.UserCurrency.Symbol}}{{UserPrice .StartAtPrice .UserCurrency.Rate}}</span>.{{end}}
+    Houses and villas are the most popular options for staying in {{.LocationName}}.
+</p>
+<p>
+    Rent By Owner offers plenty of large group rentals homes available in {{.LocationName}}.
+    Whether you're needing accommodation for a large family or a large group event, we have many
+    holiday rentals that will meet your needs. Want to stay in or near {{.LocationName}}? We have many
+    family-friendly vacation homes available to make your next trip enjoyable & spectacular.
+    So, start searching RBO's large vacation rental inventory and find the perfect home for your group.
+</p>""",
+"""<p>
+    Looking for a beach rental rent near {{.LocationName}}? Rent By Owner features {{if gt .Count 1}}more than {{.Count}}{{end}} beach
+    rentals that are perfect for your next beach holiday. Discover luxury beach rentals that are
+    within walking distance away from {{.LocationName}}. Several of these vacation rentals in {{.LocationName}}
+    are kid-friendly & family-friendly, and are near top local attraction spots, to give guests an
+    unforgettable travel experience. RBO’s rental listings come in all shapes and sizes for large
+    groups, friends, or couples, or wedding retreats in {{.LocationName}}.
+</p>
+<p>
+    Rent By Owner Offers  {{if gt .Count 1}}{{.Count}}{{end}} holiday homes and places to stay in {{.LocationName}}. The site provides
+    unique Airbnb, VRBO, RBO-style accommodations to fit your trip or get away with your friends and family.
+</p>
+<p>
+    RBO beachfront rentals give you the best travel experience that makes it easy to find and book
+    the best place to stay at the best destinations.
+</p>"""
+]
+
 def translate_with_codestral(input_text, source_lang="English", target_lang="Spanish"):
     """
     Use the Mistral API to translate text between languages while preserving HTML structure.
-    :param input_text: The text to translate.
-    :param source_lang: The source language (e.g., "English").
-    :param target_lang: The target language (e.g., "Spanish").
-    :return: Translated text and elapsed time.
     """
     messages = [
         {
             "role": "system",
             "content": f"Translate the sentence from {source_lang} to {target_lang}. \n"
                        "Keep all HTML tags, attributes, and links intact. \n"
-                       "Translate only the visible text between the tags."
+                       "Keep all templates intact. \n"
+                       "Translate only the visible text between the tags. \n"
+                       "Do not change the string \"Rent By Owner™\" or \"Rent by Owner\". \n"
+                       "Only output the translated sentence."
         },
         {
             "role": "user",
@@ -52,11 +125,6 @@ def translate_with_codestral(input_text, source_lang="English", target_lang="Spa
 def perform_pos_tagging(source_text, translated_text, source_lang="English", target_lang="Spanish"):
     """
     Perform POS tagging on the source and translated text, and compare their structures.
-    :param source_text: The original text.
-    :param translated_text: The translated text.
-    :param source_lang: The source language ("English" or "Spanish").
-    :param target_lang: The target language ("English" or "Spanish").
-    :return: A summary of mismatches in POS structure.
     """
     try:
         source_nlp = nlp_en if source_lang == "English" else nlp_es
@@ -89,35 +157,62 @@ def perform_pos_tagging(source_text, translated_text, source_lang="English", tar
 def calculate_bleu(reference, hypothesis):
     """
     Calculate the BLEU score for a translation.
-    :param reference: The reference (human) translation (list of words).
-    :param hypothesis: The hypothesis (machine) translation (list of words).
-    :return: BLEU score.
     """
     smooth = SmoothingFunction().method1
     return sentence_bleu([reference], hypothesis, smoothing_function=smooth)
 
+def calculate_word_count(text):
+    """
+    Calculate the total number of words in a given text.
+    """
+    return len(text.split())
+
 def save_to_json(data, filename=OUTPUT_FILE):
     """
-    Save translation data to a JSON file. Appends to the file if it already exists.
-    :param data: The data to save (list of dictionaries).
-    :param filename: The JSON file path.
+    Append translation data to a JSON file as a valid array.
     """
     try:
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        if os.path.exists(filename):
+            # Read existing data and append to it
+            with open(filename, "r", encoding="utf-8") as f:
+                existing_data = json.load(f)
+        else:
+            # Start a new list if the file doesn't exist
+            existing_data = []
+
+        # Append new data
+        existing_data.append(data)
+
+        # Write updated data back to the file
         with open(filename, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
+            json.dump(existing_data, f, ensure_ascii=False, indent=4)
     except Exception as e:
         print(f"Error saving to JSON file: {e}")
 
 def main():
-    all_translations = []
-    while True:
-        print("Enter a sentence in English (or type 'exit' to quit):")
-        input_text = input("> ")
-        if input_text.lower() == "exit":
-            print("Exiting...")
-            break
+    for input_text in inputs:
+        # print("Enter a sentence in English (or type 'exit' to quit):")
+        print("Translation is starting:")
+        # input_text = input("> ")
+#         input_text = """<p>
+#     Searching for a cheap rental in or near {{.LocationName}}? We have {{if gt .Count 1}}more than {{.Count}}{{else}}plenty of{{end}} cheap homes,
+#     villas, cottages, and condos that you can rent in {{.LocationName}}.
+# </p>
+# <p>
+#     Rent By Owner has a variety of cheap rentals, including vacation homes, apartments, chalets,
+#     cheap penthouses, lake homes, beachfront resorts, villas, and many luxury lifestyle options,
+#     many in {{.LocationName}}. Whether you are traveling with families or groups, hosting a get-together,
+#     or a cocktail party, we have the perfect place for your travel plans. Our rental properties in
+#     {{.LocationName}} are located in the top places and they come with luxury features throughout the
+#     living areas, kitchens, and bedrooms, including private pools, hot tubs, home theatres, amazing
+#     views, and plenty of space to relax.
+# </p>
+# """
+        # if input_text.lower() == "exit":
+        #     print("Exiting...")
+        #     break
 
+        time.sleep(1.1)
         # Step 1: English to Spanish
         spanish_translation, time_to_spanish = translate_with_codestral(
             input_text, "English", "Spanish"
@@ -128,53 +223,61 @@ def main():
 
         print(f"Translated to Spanish: {spanish_translation} (Time: {time_to_spanish:.2f} seconds)")
 
-        time.sleep(1.1)
-        # Step 2: Spanish to English (reverse translation)
-        english_translation, time_to_english = translate_with_codestral(
-            spanish_translation, "Spanish", "English"
-        )
-        if not english_translation:
-            print("Translation back to English failed.")
-            continue
+        # time.sleep(1.1)
+        # # Step 2: Spanish to English (reverse translation)
+        # english_translation, time_to_english = translate_with_codestral(
+        #     f"""{spanish_translation}""", "Spanish", "English"
+        # )
+        # if not english_translation:
+        #     print("Translation back to English failed.")
+        #     continue
 
-        print(f"Translated back to English: {english_translation} (Time: {time_to_english:.2f} seconds)")
+        # print(f"Translated back to English: {english_translation} (Time: {time_to_english:.2f} seconds)")
 
         # BLEU score calculation
         reference = input_text.split()  # Tokenize input sentence as reference
-        hypothesis = english_translation.split()  # Tokenize back-translated sentence
-        bleu_score = calculate_bleu(reference, hypothesis)
+        # hypothesis = english_translation.split()  # Tokenize back-translated sentence
+        # bleu_score = calculate_bleu(reference, hypothesis)
 
-        print(f"BLEU Score: {bleu_score:.4f}")
+        # print(f"BLEU Score: {bleu_score:.4f}")
+
+        # Word Count Calculation
+        source_word_count = calculate_word_count(input_text)
+        # english_word_count = calculate_word_count(english_translation)
+
+        # print(f"Word Count - Source English: {source_word_count}, Processed English: {english_word_count}")
 
         # POS Tagging and Error Analysis
-        pos_analysis = perform_pos_tagging(
-            input_text, spanish_translation, "English", "Spanish"
-        )
-        if pos_analysis:
-            print("\nPOS Tagging Analysis:")
-            print(f"Source POS Counts: {pos_analysis['source_pos']}")
-            print(f"Target POS Counts: {pos_analysis['target_pos']}")
-            print(f"POS Mismatches: {pos_analysis['differences']}\n")
+        # pos_analysis = perform_pos_tagging(
+        #     input_text, spanish_translation, "English", "Spanish"
+        # )
+        # if pos_analysis:
+        #     print("\nPOS Tagging Analysis:")
+        #     print(f"Source POS Counts: {pos_analysis['source_pos']}")
+        #     print(f"Target POS Counts: {pos_analysis['target_pos']}")
+        #     print(f"POS Mismatches: {pos_analysis['differences']}\n")
 
-        # Collect results
+        # Save results to JSON
         translation_data = {
             "input_text": input_text,
             "translations": {
                 "to_spanish": spanish_translation,
-                "to_english": english_translation,
+                # "to_english": english_translation,
             },
             "time_taken": {
                 "to_spanish": time_to_spanish,
-                "to_english": time_to_english,
+                # "to_english": time_to_english,
             },
-            "bleu_score": bleu_score,
-            "pos_analysis": pos_analysis,
+            # "bleu_score": bleu_score,
+            "word_count": {
+                "source_english": source_word_count,
+                # "processed_english": english_word_count,
+            },
+            # "pos_analysis": pos_analysis,
         }
-        all_translations.append(translation_data)
-
-    # Save all results to JSON
-    save_to_json(all_translations)
-    print(f"All translations saved to {OUTPUT_FILE}.")
+        save_to_json(translation_data)
+        print(f"Translation saved to {OUTPUT_FILE}.")
+        # break
 
 if __name__ == "__main__":
     main()
