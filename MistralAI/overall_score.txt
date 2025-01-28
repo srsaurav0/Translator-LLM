@@ -1,0 +1,4 @@
+Average Time to Translate: 1.228 seconds
+Average Time to Translate to English: 0.802 seconds
+Average BLEU Score: 0.700
+Average POS Score (absolute differences): 7.667

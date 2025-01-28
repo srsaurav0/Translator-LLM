@@ -2,14 +2,14 @@
     {
         "input_text": "Despite the fact that it was raining heavily, the marathon runners continued their race with determination and enthusiasm.",
         "translations": {
-            "to_french": "Malgré le fait qu'il pluvait à verse, les coureurs de marathon ont poursuivi leur course avec détermination et enthousiasme.",
-            "to_english": "Despite the fact that it was raining heavily, the marathon runners continued their race with determination and enthusiasm."
+            "to_spanish": "A pesar de que llovía intensamente, los corredores de maratón continuaron su carrera con determinación y entusiasmo.",
+            "to_english": "Despite the intense rain, the marathon runners continued their race with determination and enthusiasm."
         },
         "time_taken": {
-            "to_french": 1.2382051944732666,
-            "to_english": 0.7563266754150391
+            "to_spanish": 1.013481616973877,
+            "to_english": 0.644805908203125
         },
-        "bleu_score": 1.0,
+        "bleu_score": 0.546508411582203,
         "pos_analysis": {
             "source_pos": {
                 "SCONJ": 2,
@@ -25,20 +25,18 @@
             },
             "target_pos": {
                 "ADP": 4,
-                "DET": 3,
                 "NOUN": 6,
                 "SCONJ": 1,
-                "PRON": 1,
                 "VERB": 2,
-                "PUNCT": 2,
                 "ADJ": 1,
-                "AUX": 1,
+                "PUNCT": 2,
+                "DET": 2,
                 "CCONJ": 1
             },
             "differences": {
                 "SCONJ": 1,
-                "DET": -1,
-                "PRON": 1,
+                "PRON": 2,
+                "AUX": 1,
                 "ADV": 1,
                 "ADP": -3
             }
@@ -47,14 +45,14 @@
     {
         "input_text": "She postponed the meeting until her manager, who had been away on a business trip, returned to the office with the final approval.",
         "translations": {
-            "to_french": "Elle a reporté la réunion jusqu'à ce que son responsable, qui avait été en déplacement professionnel, retourne au bureau avec l'approbation finale.",
-            "to_english": "She postponed the meeting until her manager, who had been on a business trip, returned to the office with the final approval."
+            "to_spanish": "Aplazó la reunión hasta que su gerente, que había estado fuera en un viaje de negocios, regresara a la oficina con la aprobación final.",
+            "to_english": "He postponed the meeting until his manager, who had been away on a business trip, returned to the office with the final approval."
         },
         "time_taken": {
-            "to_french": 0.9733736515045166,
-            "to_english": 0.7690534591674805
+            "to_spanish": 1.043558120727539,
+            "to_english": 0.7836954593658447
         },
-        "bleu_score": 0.880773500588743,
+        "bleu_score": 0.8318180062062374,
         "pos_analysis": {
             "source_pos": {
                 "PRON": 3,
@@ -69,36 +67,33 @@
                 "ADJ": 1
             },
             "target_pos": {
-                "PRON": 3,
-                "AUX": 3,
-                "VERB": 1,
-                "DET": 3,
-                "NOUN": 5,
+                "VERB": 2,
+                "DET": 5,
+                "NOUN": 6,
                 "ADP": 5,
                 "SCONJ": 1,
                 "PUNCT": 3,
-                "ADJ": 3
+                "PRON": 1,
+                "AUX": 2,
+                "ADV": 1,
+                "ADJ": 1
             },
             "differences": {
-                "VERB": 1,
-                "DET": 1,
-                "NOUN": 1,
-                "AUX": -1,
-                "ADV": 1,
-                "ADP": -2,
-                "ADJ": -2
+                "PRON": 2,
+                "DET": -1,
+                "ADP": -2
             }
         }
     },
     {
         "input_text": "While I enjoy spending time with friends at the beach, I often find myself yearning for the solitude of the mountains.",
         "translations": {
-            "to_french": "Alors que j'apprécie passer du temps avec des amis à la plage, je me surprends souvent à aspirer à la solitude des montagnes.",
+            "to_spanish": "Mientras disfruto pasando el tiempo con amigos en la playa, a menudo me encuentro anhelando la soledad de las montañas.",
             "to_english": "While I enjoy spending time with friends at the beach, I often find myself longing for the solitude of the mountains."
         },
         "time_taken": {
-            "to_french": 1.192333698272705,
-            "to_english": 0.7438864707946777
+            "to_spanish": 1.4556353092193604,
+            "to_english": 0.9259209632873535
         },
         "bleu_score": 0.8656030552541708,
         "pos_analysis": {
@@ -113,32 +108,33 @@
                 "ADV": 1
             },
             "target_pos": {
-                "ADV": 2,
                 "SCONJ": 1,
-                "PRON": 3,
                 "VERB": 4,
-                "ADP": 6,
-                "NOUN": 5,
-                "DET": 3,
-                "PUNCT": 2
+                "DET": 4,
+                "NOUN": 6,
+                "ADP": 4,
+                "PUNCT": 2,
+                "PRON": 1
             },
             "differences": {
-                "ADP": -2,
-                "ADV": -1
+                "PRON": 2,
+                "NOUN": -1,
+                "DET": -1,
+                "ADV": 1
             }
         }
     },
     {
         "input_text": "The scientist explained the experiment in detail so that everyone, including those without a background in physics, could understand the significance of the findings.",
         "translations": {
-            "to_french": "Le scientifique a expliqué l'expérience en détail afin que tout le monde, y compris ceux qui n'ont pas de connaissances en physique, puisse comprendre la signification des résultats.",
-            "to_english": "The scientist explained the experiment in detail so that everyone, including those with no knowledge of physics, could understand the meaning of the results."
+            "to_spanish": "El científico explicó el experimento en detalle para que todos, incluidos aquellos sin conocimientos de física, pudieran entender la importancia de los hallazgos.",
+            "to_english": "The scientist explained the experiment in detail so that everyone, including those without knowledge of physics, could understand the importance of the findings."
         },
         "time_taken": {
-            "to_french": 1.3536312580108643,
-            "to_english": 0.7837564945220947
+            "to_spanish": 1.2030284404754639,
+            "to_english": 0.9410603046417236
         },
-        "bleu_score": 0.5970228993860437,
+        "bleu_score": 0.6745553465668744,
         "pos_analysis": {
             "source_pos": {
                 "DET": 5,
@@ -151,36 +147,35 @@
                 "AUX": 1
             },
             "target_pos": {
-                "DET": 5,
-                "NOUN": 8,
-                "AUX": 1,
-                "VERB": 4,
-                "ADP": 4,
+                "DET": 4,
+                "NOUN": 7,
+                "VERB": 2,
+                "ADP": 5,
                 "SCONJ": 1,
-                "ADJ": 2,
+                "PRON": 2,
                 "PUNCT": 3,
-                "PRON": 3,
-                "ADV": 2
+                "ADJ": 1,
+                "AUX": 1
             },
             "differences": {
-                "NOUN": -1,
-                "VERB": -1,
-                "SCONJ": 1,
-                "PRON": -1
+                "DET": 1,
+                "VERB": 1,
+                "ADP": -1,
+                "SCONJ": 1
             }
         }
     },
     {
         "input_text": "If you work hard and stay focused on your goals, you will achieve more than you ever thought possible in life.",
         "translations": {
-            "to_french": "Si vous travaillez dur et restez concentré sur vos objectifs, vous accomplirez plus que vous ne l'auriez jamais cru possible dans la vie.",
-            "to_english": "If you work hard and stay focused on your goals, you will accomplish more than you ever thought possible in life."
+            "to_spanish": "Si trabajas duro y te mantienes enfocado en tus metas, lograrás más de lo que jamás pensaste posible en la vida.",
+            "to_english": "If you work hard and stay focused on your goals, you will achieve more than you ever thought possible in life."
         },
         "time_taken": {
-            "to_french": 1.0655038356781006,
-            "to_english": 0.7118003368377686
+            "to_spanish": 0.942436933517456,
+            "to_english": 0.700843095779419
         },
-        "bleu_score": 0.8656030552541708,
+        "bleu_score": 1.0,
         "pos_analysis": {
             "source_pos": {
                 "SCONJ": 2,
@@ -195,23 +190,21 @@
                 "AUX": 1
             },
             "target_pos": {
-                "SCONJ": 2,
-                "PRON": 3,
-                "VERB": 5,
-                "ADJ": 2,
+                "SCONJ": 1,
+                "VERB": 4,
+                "ADJ": 3,
                 "CCONJ": 1,
-                "ADP": 2,
-                "DET": 3,
+                "PRON": 3,
+                "ADP": 3,
+                "DET": 2,
                 "NOUN": 2,
                 "PUNCT": 2,
-                "ADV": 3,
-                "PROPN": 1
+                "ADV": 2
             },
             "differences": {
+                "SCONJ": 1,
                 "PRON": 1,
-                "VERB": -1,
-                "ADV": -1,
-                "ADJ": 1,
+                "ADP": -1,
                 "AUX": 1
             }
         }
@@ -219,14 +212,14 @@
     {
         "input_text": "Although the restaurant was highly recommended by locals, the service was slow, and the food did not live up to our expectations.",
         "translations": {
-            "to_french": "Bien que le restaurant nous ait été chaudement recommandé par les locaux, le service était lent et la nourriture n'a pas été à la hauteur de nos attentes.",
-            "to_english": "Although the restaurant had been highly recommended by the locals, the service was slow and the food did not meet our expectations."
+            "to_spanish": "Aunque el restaurante fue muy recomendado por los lugareños, el servicio fue lento y la comida no estuvo a la altura de nuestras expectativas.",
+            "to_english": "Although the restaurant was highly recommended by the locals, the service was slow and the food did not live up to our expectations."
         },
         "time_taken": {
-            "to_french": 1.3860406875610352,
-            "to_english": 0.6834204196929932
+            "to_spanish": 1.0355069637298584,
+            "to_english": 0.7583081722259521
         },
-        "bleu_score": 0.39523552416819946,
+        "bleu_score": 0.7522135016840221,
         "pos_analysis": {
             "source_pos": {
                 "SCONJ": 1,
@@ -243,39 +236,41 @@
                 "PRON": 1
             },
             "target_pos": {
-                "ADV": 4,
                 "SCONJ": 1,
                 "DET": 6,
                 "NOUN": 6,
-                "PRON": 1,
-                "AUX": 4,
-                "VERB": 2,
+                "AUX": 2,
+                "ADV": 2,
+                "ADJ": 2,
                 "ADP": 3,
                 "PUNCT": 2,
-                "ADJ": 1,
-                "CCONJ": 1
+                "CCONJ": 1,
+                "VERB": 1
             },
             "differences": {
                 "DET": -3,
                 "NOUN": -1,
-                "AUX": -1,
-                "ADV": -3,
+                "AUX": 1,
+                "ADV": -1,
+                "VERB": 1,
                 "PUNCT": 1,
-                "PART": 1
+                "ADJ": -1,
+                "PART": 1,
+                "PRON": 1
             }
         }
     },
     {
         "input_text": "Because she studied diligently every night for the past month, Maria performed exceptionally well on her final exams.",
         "translations": {
-            "to_french": "Parce qu'elle a étudié diligemment chaque soir pendant le dernier mois, Maria a exceptionnellement bien réussi ses examens finaux.",
-            "to_english": "Because she studied diligently every evening for the last month, Maria exceptionally succeeded in her final exams."
+            "to_spanish": "Debido a que ella estudió diligentemente todas las noches durante el último mes, María tuvo un rendimiento excepcional en sus exámenes finales.",
+            "to_english": "Because she studied diligently every night for the last month, María performed exceptionally on her final exams."
         },
         "time_taken": {
-            "to_french": 1.5879104137420654,
-            "to_english": 0.6627280712127686
+            "to_spanish": 1.0935935974121094,
+            "to_english": 0.7022171020507812
         },
-        "bleu_score": 0.3275571227650088,
+        "bleu_score": 0.5753571460350173,
         "pos_analysis": {
             "source_pos": {
                 "SCONJ": 1,
@@ -290,36 +285,36 @@
                 "PROPN": 1
             },
             "target_pos": {
-                "SCONJ": 2,
+                "ADJ": 4,
+                "ADP": 3,
+                "SCONJ": 1,
                 "PRON": 1,
-                "AUX": 2,
                 "VERB": 2,
-                "DET": 3,
+                "ADV": 1,
+                "DET": 5,
                 "NOUN": 4,
-                "ADP": 1,
-                "ADJ": 2,
                 "PUNCT": 2,
-                "ADV": 3
+                "PROPN": 1
             },
             "differences": {
-                "SCONJ": -1,
                 "PRON": 1,
-                "DET": -1,
+                "ADV": 2,
+                "DET": -3,
                 "NOUN": -1,
-                "ADP": 1,
-                "PROPN": 1
+                "ADP": -1,
+                "ADJ": -2
             }
         }
     },
     {
         "input_text": "The company implemented new policies to improve employee satisfaction, which, in turn, led to increased productivity across all departments.",
         "translations": {
-            "to_french": "La société a mis en œuvre de nouvelles politiques pour améliorer la satisfaction des employés, ce qui, à son tour, a conduit à une augmentation de la productivité dans tous les départements.",
+            "to_spanish": "La empresa implementó nuevas políticas para mejorar la satisfacción de los empleados, lo que, a su vez, llevó a un aumento de la productividad en todos los departamentos.",
             "to_english": "The company implemented new policies to improve employee satisfaction, which in turn led to an increase in productivity across all departments."
         },
         "time_taken": {
-            "to_french": 1.9246723651885986,
-            "to_english": 1.6328151226043701
+            "to_spanish": 1.17811918258667,
+            "to_english": 0.7559807300567627
         },
         "bleu_score": 0.5386933265263314,
         "pos_analysis": {
@@ -334,37 +329,35 @@
                 "ADP": 3
             },
             "target_pos": {
-                "DET": 6,
+                "DET": 7,
                 "NOUN": 8,
-                "AUX": 2,
                 "VERB": 3,
-                "ADP": 8,
-                "ADJ": 3,
+                "ADJ": 1,
+                "ADP": 6,
                 "PUNCT": 4,
-                "PRON": 2
+                "PRON": 3
             },
             "differences": {
-                "DET": -4,
+                "DET": -5,
                 "NOUN": -1,
                 "VERB": 1,
-                "ADJ": -2,
                 "PART": 1,
-                "PRON": -1,
-                "ADP": -5
+                "PRON": -2,
+                "ADP": -3
             }
         }
     },
     {
         "input_text": "After the storm had passed and the sun reappeared, the children ventured outside to play in the puddles left behind.",
         "translations": {
-            "to_french": "Après que la tempête fut passée et que le soleil eut réapparu, les enfants se sont aventurés dehors pour jouer dans les flaques laissées derrière.",
-            "to_english": "After the storm had passed and the sun had reappeared, the children ventured outside to play in the puddles left behind."
+            "to_spanish": "Después de que pasó la tormenta y reapareció el sol, los niños se aventuraron afuera a jugar en los charcos que dejó.",
+            "to_english": "After the storm passed and the sun reappeared, the children ventured outside to play in the puddles it left."
         },
         "time_taken": {
-            "to_french": 1.1434524059295654,
-            "to_english": 0.9237537384033203
+            "to_spanish": 1.0460388660430908,
+            "to_english": 0.7855708599090576
         },
-        "bleu_score": 0.8656030552541708,
+        "bleu_score": 0.750693572887501,
         "pos_analysis": {
             "source_pos": {
                 "SCONJ": 1,
@@ -379,37 +372,36 @@
                 "ADP": 1
             },
             "target_pos": {
-                "ADP": 5,
-                "SCONJ": 2,
-                "DET": 4,
-                "NOUN": 5,
-                "AUX": 2,
+                "ADV": 1,
+                "ADP": 3,
+                "SCONJ": 1,
                 "VERB": 5,
+                "DET": 4,
+                "NOUN": 4,
                 "CCONJ": 1,
                 "PUNCT": 2,
-                "PRON": 1
+                "PRON": 2,
+                "ADJ": 1
             },
             "differences": {
-                "SCONJ": -1,
-                "NOUN": -1,
-                "AUX": -1,
-                "ADV": 2,
+                "AUX": 1,
+                "ADV": 1,
                 "PART": 1,
-                "ADP": -4
+                "ADP": -2
             }
         }
     },
     {
         "input_text": "Whenever he travels abroad, John makes it a point to learn a few basic phrases in the local language to show respect for the culture.",
         "translations": {
-            "to_french": "À chaque fois qu'il voyage à l'étranger, John s'assure d'apprendre quelques phrases de base dans la langue locale pour montrer du respect pour la culture.",
-            "to_english": "Every time he travels abroad, John makes sure to learn a few basic phrases in the local language to show respect for the culture."
+            "to_spanish": "Cuando viaja al extranjero, John se asegura de aprender algunas frases básicas en el idioma local para mostrar respeto por la cultura.",
+            "to_english": "When traveling abroad, John makes sure to learn some basic phrases in the local language to show respect for the culture."
         },
         "time_taken": {
-            "to_french": 1.0423533916473389,
-            "to_english": 0.7460975646972656
+            "to_spanish": 1.033064365386963,
+            "to_english": 0.7323837280273438
         },
-        "bleu_score": 0.76232015509242,
+        "bleu_score": 0.5260311109978927,
         "pos_analysis": {
             "source_pos": {
                 "SCONJ": 1,
@@ -425,24 +417,23 @@
                 "ADP": 2
             },
             "target_pos": {
-                "ADP": 8,
-                "DET": 5,
-                "NOUN": 6,
                 "SCONJ": 1,
-                "PRON": 2,
-                "VERB": 5,
+                "VERB": 4,
+                "ADP": 5,
+                "NOUN": 5,
                 "PUNCT": 2,
                 "PROPN": 1,
-                "ADJ": 1
+                "PRON": 1,
+                "DET": 3,
+                "ADJ": 2
             },
             "differences": {
-                "VERB": -1,
+                "PRON": 1,
                 "ADV": 1,
-                "DET": -1,
-                "NOUN": -1,
+                "DET": 1,
                 "PART": 2,
-                "ADJ": 2,
-                "ADP": -6
+                "ADJ": 1,
+                "ADP": -3
             }
         }
     }
